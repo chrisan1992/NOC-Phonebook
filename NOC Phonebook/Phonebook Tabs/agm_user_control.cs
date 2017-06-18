@@ -44,8 +44,8 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void btn_BinXu_mobile_Click(object sender, EventArgs e)
         {
-
-        }
+            call.makeCall("+1-408-506-4899");
+        }        
 
         private void btn_BinXu_skype_Click(object sender, EventArgs e)
         {
@@ -54,7 +54,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void btn_SophieAlush_mobile_Click(object sender, EventArgs e)
         {
-
+            call.makeCall("+972-52-8151810");
         }
 
         private void btn_SophieAlush_skype_Click(object sender, EventArgs e)
@@ -64,7 +64,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void btn_AminHabash_mobile_Click(object sender, EventArgs e)
         {
-
+            call.makeCall("+972-50-313-7553");
         }
 
         private void btn_AminHabash_skype_Click(object sender, EventArgs e)
@@ -74,7 +74,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void btn_GititNevo_mobile_Click(object sender, EventArgs e)
         {
-
+            call.makeCall("+972-50-3137647");
         }
 
         private void btn_GititNevo_skype_Click(object sender, EventArgs e)
@@ -84,7 +84,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void btn_Anatoly_mobile_Click(object sender, EventArgs e)
         {
-
+            call.makeCall("+972-54-4745220");
         }
 
         private void btn_Anatoly_skype_Click(object sender, EventArgs e)
@@ -94,7 +94,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void btn_AvitalKarni_mobile_Click(object sender, EventArgs e)
         {
-
+            call.makeCall("+972 54 5597063");
         }
 
         private void btn_AvitalKarni_skype_Click(object sender, EventArgs e)
@@ -104,7 +104,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void btn_ItayLaxer_mobile_Click(object sender, EventArgs e)
         {
-
+            call.makeCall("+972 54 4497019");
         }
 
         private void btn_ItayLaxer_skype_Click(object sender, EventArgs e)
@@ -114,7 +114,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void btn_VadimWaisman_mobile_Click(object sender, EventArgs e)
         {
-
+            call.makeCall("+972525759368");
         }
 
         private void btn_VadimWaisman_skype_Click(object sender, EventArgs e)

@@ -22,6 +22,8 @@ namespace NOC_Phonebook
 
         private static LyncCall call;
         private static agm_user_control agm_user_control;
+        private static am_rc_user_control am_rc_user_control;
+        private static anm_user_control anm_user_control;
 
         public phonebook_user_control()
         {
@@ -36,6 +38,18 @@ namespace NOC_Phonebook
             agm_user_control.Call = call;
             tabAGM.Controls.Clear();
             tabAGM.Controls.Add(agm_user_control);
+
+            //AM RC Tab
+            am_rc_user_control = new am_rc_user_control();
+            am_rc_user_control.Call = call;
+            tabAMRC.Controls.Clear();
+            tabAMRC.Controls.Add(am_rc_user_control);
+
+            //AnM Tab
+            anm_user_control = new anm_user_control();
+            anm_user_control.Call = call;
+            tabAnM.Controls.Clear();
+            tabAnM.Controls.Add(anm_user_control);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -43,7 +57,7 @@ namespace NOC_Phonebook
             // Create a generic List object to contain the URI to call.
             // Edit this to provide a valid URI.
             List<string> participantUri = new List<string>();
-            participantUri.Add("506 72944567");
+            participantUri.Add("+506 72944567");
             //participantUri.Add("+972 3 5396852");
 
             // Start the conversation.
