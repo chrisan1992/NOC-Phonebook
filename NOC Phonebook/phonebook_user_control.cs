@@ -24,6 +24,9 @@ namespace NOC_Phonebook
         private static agm_user_control agm_user_control;
         private static am_rc_user_control am_rc_user_control;
         private static anm_user_control anm_user_control;
+        private static apm_user_control apm_user_control;
+        private static ap_active_user_control ap_active_user_control;
+        private static ap_trace_user_control ap_trace_user_control;
 
         public phonebook_user_control()
         {
@@ -50,6 +53,24 @@ namespace NOC_Phonebook
             anm_user_control.Call = call;
             tabAnM.Controls.Clear();
             tabAnM.Controls.Add(anm_user_control);
+
+            //tabAPM
+            apm_user_control = new apm_user_control();
+            apm_user_control.Call = call;
+            tabAPM.Controls.Clear();
+            tabAPM.Controls.Add(apm_user_control);
+
+            //tabAPActive
+            ap_active_user_control = new ap_active_user_control();
+            ap_active_user_control.Call = call;
+            tabAPActive.Controls.Clear();
+            tabAPActive.Controls.Add(ap_active_user_control);
+
+            //tabAPTrace
+            ap_trace_user_control = new ap_trace_user_control();
+            ap_trace_user_control.Call = call;
+            tabAPTrace.Controls.Clear();
+            tabAPTrace.Controls.Add(ap_trace_user_control);
         }
 
         private void button1_Click(object sender, EventArgs e)

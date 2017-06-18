@@ -35,9 +35,9 @@
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabAMRC = new System.Windows.Forms.TabPage();
             this.tabAnM = new System.Windows.Forms.TabPage();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.tabAPM = new System.Windows.Forms.TabPage();
+            this.tabAPActive = new System.Windows.Forms.TabPage();
+            this.tabAPTrace = new System.Windows.Forms.TabPage();
             this.tabPage9 = new System.Windows.Forms.TabPage();
             this.tabPage10 = new System.Windows.Forms.TabPage();
             this.tabPage11 = new System.Windows.Forms.TabPage();
@@ -61,9 +61,9 @@
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabAMRC);
             this.tabControl1.Controls.Add(this.tabAnM);
-            this.tabControl1.Controls.Add(this.tabPage6);
-            this.tabControl1.Controls.Add(this.tabPage7);
-            this.tabControl1.Controls.Add(this.tabPage8);
+            this.tabControl1.Controls.Add(this.tabAPM);
+            this.tabControl1.Controls.Add(this.tabAPActive);
+            this.tabControl1.Controls.Add(this.tabAPTrace);
             this.tabControl1.Controls.Add(this.tabPage9);
             this.tabControl1.Controls.Add(this.tabPage10);
             this.tabControl1.Controls.Add(this.tabPage11);
@@ -149,38 +149,38 @@
             this.tabAnM.Text = "AnM";
             this.tabAnM.UseVisualStyleBackColor = true;
             // 
-            // tabPage6
+            // tabAPM
             // 
-            this.tabPage6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.tabPage6.Location = new System.Drawing.Point(4, 29);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(743, 395);
-            this.tabPage6.TabIndex = 6;
-            this.tabPage6.Text = "APM";
-            this.tabPage6.UseVisualStyleBackColor = true;
+            this.tabAPM.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.tabAPM.Location = new System.Drawing.Point(4, 29);
+            this.tabAPM.Name = "tabAPM";
+            this.tabAPM.Padding = new System.Windows.Forms.Padding(3);
+            this.tabAPM.Size = new System.Drawing.Size(743, 395);
+            this.tabAPM.TabIndex = 6;
+            this.tabAPM.Text = "APM";
+            this.tabAPM.UseVisualStyleBackColor = true;
             // 
-            // tabPage7
+            // tabAPActive
             // 
-            this.tabPage7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.tabPage7.Location = new System.Drawing.Point(4, 29);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(743, 395);
-            this.tabPage7.TabIndex = 7;
-            this.tabPage7.Text = "Ap Active";
-            this.tabPage7.UseVisualStyleBackColor = true;
+            this.tabAPActive.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.tabAPActive.Location = new System.Drawing.Point(4, 29);
+            this.tabAPActive.Name = "tabAPActive";
+            this.tabAPActive.Padding = new System.Windows.Forms.Padding(3);
+            this.tabAPActive.Size = new System.Drawing.Size(743, 395);
+            this.tabAPActive.TabIndex = 7;
+            this.tabAPActive.Text = "Ap Active";
+            this.tabAPActive.UseVisualStyleBackColor = true;
             // 
-            // tabPage8
+            // tabAPTrace
             // 
-            this.tabPage8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.tabPage8.Location = new System.Drawing.Point(4, 29);
-            this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(743, 395);
-            this.tabPage8.TabIndex = 8;
-            this.tabPage8.Text = "AP Trace";
-            this.tabPage8.UseVisualStyleBackColor = true;
+            this.tabAPTrace.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.tabAPTrace.Location = new System.Drawing.Point(4, 29);
+            this.tabAPTrace.Name = "tabAPTrace";
+            this.tabAPTrace.Padding = new System.Windows.Forms.Padding(3);
+            this.tabAPTrace.Size = new System.Drawing.Size(743, 395);
+            this.tabAPTrace.TabIndex = 8;
+            this.tabAPTrace.Text = "AP Trace";
+            this.tabAPTrace.UseVisualStyleBackColor = true;
             // 
             // tabPage9
             // 
@@ -321,9 +321,9 @@
         private System.Windows.Forms.TabPage tabAGM;
         private System.Windows.Forms.TabPage tabAMRC;
         private System.Windows.Forms.TabPage tabAnM;
-        private System.Windows.Forms.TabPage tabPage6;
-        private System.Windows.Forms.TabPage tabPage7;
-        private System.Windows.Forms.TabPage tabPage8;
+        private System.Windows.Forms.TabPage tabAPM;
+        private System.Windows.Forms.TabPage tabAPActive;
+        private System.Windows.Forms.TabPage tabAPTrace;
         private System.Windows.Forms.TabPage tabPage9;
         private System.Windows.Forms.TabPage tabPage10;
         private System.Windows.Forms.TabPage tabPage11;
