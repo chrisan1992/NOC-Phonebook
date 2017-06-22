@@ -27,6 +27,9 @@ namespace NOC_Phonebook
         private static apm_user_control apm_user_control;
         private static ap_active_user_control ap_active_user_control;
         private static ap_trace_user_control ap_trace_user_control;
+        private static art_user_control art_user_control;
+        private static portal_user_control portal_user_control;
+        private static db_user_control db_user_control;
 
         public phonebook_user_control()
         {
@@ -71,6 +74,25 @@ namespace NOC_Phonebook
             ap_trace_user_control.Call = call;
             tabAPTrace.Controls.Clear();
             tabAPTrace.Controls.Add(ap_trace_user_control);
+
+            //tabART
+            art_user_control = new art_user_control();
+            art_user_control.Call = call;
+            tabART.Controls.Clear();
+            tabART.Controls.Add(art_user_control);
+
+            //tabPortal
+            portal_user_control = new portal_user_control();
+            portal_user_control.Call = call;
+            tabPortal.Controls.Clear();
+            tabPortal.Controls.Add(portal_user_control);
+
+            //tabDB
+            db_user_control = new db_user_control();
+            db_user_control.Call = call;
+            tabDB.Controls.Clear();
+            tabDB.Controls.Add(db_user_control);
+
         }
 
         private void button1_Click(object sender, EventArgs e)

@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPages = new System.Windows.Forms.TabControl();
             this.tabAGM = new System.Windows.Forms.TabPage();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.button1 = new System.Windows.Forms.Button();
@@ -38,10 +38,9 @@
             this.tabAPM = new System.Windows.Forms.TabPage();
             this.tabAPActive = new System.Windows.Forms.TabPage();
             this.tabAPTrace = new System.Windows.Forms.TabPage();
-            this.tabPage9 = new System.Windows.Forms.TabPage();
-            this.tabPage10 = new System.Windows.Forms.TabPage();
-            this.tabPage11 = new System.Windows.Forms.TabPage();
-            this.tabPage12 = new System.Windows.Forms.TabPage();
+            this.tabART = new System.Windows.Forms.TabPage();
+            this.tabPortal = new System.Windows.Forms.TabPage();
+            this.tabDB = new System.Windows.Forms.TabPage();
             this.tabPage13 = new System.Windows.Forms.TabPage();
             this.tabPage14 = new System.Windows.Forms.TabPage();
             this.tabPage15 = new System.Windows.Forms.TabPage();
@@ -49,38 +48,37 @@
             this.tabPage17 = new System.Windows.Forms.TabPage();
             this.tabPage18 = new System.Windows.Forms.TabPage();
             this.tabPage19 = new System.Windows.Forms.TabPage();
-            this.tabControl1.SuspendLayout();
+            this.tabPages.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // tabControl1
+            // tabPages
             // 
-            this.tabControl1.Appearance = System.Windows.Forms.TabAppearance.FlatButtons;
-            this.tabControl1.Controls.Add(this.tabAGM);
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabAMRC);
-            this.tabControl1.Controls.Add(this.tabAnM);
-            this.tabControl1.Controls.Add(this.tabAPM);
-            this.tabControl1.Controls.Add(this.tabAPActive);
-            this.tabControl1.Controls.Add(this.tabAPTrace);
-            this.tabControl1.Controls.Add(this.tabPage9);
-            this.tabControl1.Controls.Add(this.tabPage10);
-            this.tabControl1.Controls.Add(this.tabPage11);
-            this.tabControl1.Controls.Add(this.tabPage12);
-            this.tabControl1.Controls.Add(this.tabPage13);
-            this.tabControl1.Controls.Add(this.tabPage14);
-            this.tabControl1.Controls.Add(this.tabPage15);
-            this.tabControl1.Controls.Add(this.tabPage16);
-            this.tabControl1.Controls.Add(this.tabPage17);
-            this.tabControl1.Controls.Add(this.tabPage18);
-            this.tabControl1.Controls.Add(this.tabPage19);
-            this.tabControl1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabControl1.Location = new System.Drawing.Point(3, 3);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(751, 428);
-            this.tabControl1.TabIndex = 0;
+            this.tabPages.Appearance = System.Windows.Forms.TabAppearance.FlatButtons;
+            this.tabPages.Controls.Add(this.tabAGM);
+            this.tabPages.Controls.Add(this.tabPage1);
+            this.tabPages.Controls.Add(this.tabPage2);
+            this.tabPages.Controls.Add(this.tabAMRC);
+            this.tabPages.Controls.Add(this.tabAnM);
+            this.tabPages.Controls.Add(this.tabAPM);
+            this.tabPages.Controls.Add(this.tabAPActive);
+            this.tabPages.Controls.Add(this.tabAPTrace);
+            this.tabPages.Controls.Add(this.tabART);
+            this.tabPages.Controls.Add(this.tabPortal);
+            this.tabPages.Controls.Add(this.tabDB);
+            this.tabPages.Controls.Add(this.tabPage13);
+            this.tabPages.Controls.Add(this.tabPage14);
+            this.tabPages.Controls.Add(this.tabPage15);
+            this.tabPages.Controls.Add(this.tabPage16);
+            this.tabPages.Controls.Add(this.tabPage17);
+            this.tabPages.Controls.Add(this.tabPage18);
+            this.tabPages.Controls.Add(this.tabPage19);
+            this.tabPages.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPages.Location = new System.Drawing.Point(3, 3);
+            this.tabPages.Name = "tabPages";
+            this.tabPages.SelectedIndex = 0;
+            this.tabPages.Size = new System.Drawing.Size(751, 428);
+            this.tabPages.TabIndex = 0;
             // 
             // tabAGM
             // 
@@ -182,49 +180,38 @@
             this.tabAPTrace.Text = "AP Trace";
             this.tabAPTrace.UseVisualStyleBackColor = true;
             // 
-            // tabPage9
+            // tabART
             // 
-            this.tabPage9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.tabPage9.Location = new System.Drawing.Point(4, 29);
-            this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage9.Size = new System.Drawing.Size(743, 395);
-            this.tabPage9.TabIndex = 9;
-            this.tabPage9.Text = "ART";
-            this.tabPage9.UseVisualStyleBackColor = true;
+            this.tabART.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.tabART.Location = new System.Drawing.Point(4, 29);
+            this.tabART.Name = "tabART";
+            this.tabART.Padding = new System.Windows.Forms.Padding(3);
+            this.tabART.Size = new System.Drawing.Size(743, 395);
+            this.tabART.TabIndex = 9;
+            this.tabART.Text = "ART";
+            this.tabART.UseVisualStyleBackColor = true;
             // 
-            // tabPage10
+            // tabPortal
             // 
-            this.tabPage10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.tabPage10.Location = new System.Drawing.Point(4, 29);
-            this.tabPage10.Name = "tabPage10";
-            this.tabPage10.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage10.Size = new System.Drawing.Size(743, 395);
-            this.tabPage10.TabIndex = 10;
-            this.tabPage10.Text = "BACA";
-            this.tabPage10.UseVisualStyleBackColor = true;
+            this.tabPortal.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.tabPortal.Location = new System.Drawing.Point(4, 29);
+            this.tabPortal.Name = "tabPortal";
+            this.tabPortal.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPortal.Size = new System.Drawing.Size(743, 395);
+            this.tabPortal.TabIndex = 11;
+            this.tabPortal.Text = "Portal";
+            this.tabPortal.UseVisualStyleBackColor = true;
             // 
-            // tabPage11
+            // tabDB
             // 
-            this.tabPage11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.tabPage11.Location = new System.Drawing.Point(4, 29);
-            this.tabPage11.Name = "tabPage11";
-            this.tabPage11.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage11.Size = new System.Drawing.Size(743, 395);
-            this.tabPage11.TabIndex = 11;
-            this.tabPage11.Text = "Portal";
-            this.tabPage11.UseVisualStyleBackColor = true;
-            // 
-            // tabPage12
-            // 
-            this.tabPage12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.tabPage12.Location = new System.Drawing.Point(4, 29);
-            this.tabPage12.Name = "tabPage12";
-            this.tabPage12.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage12.Size = new System.Drawing.Size(743, 395);
-            this.tabPage12.TabIndex = 12;
-            this.tabPage12.Text = "DB";
-            this.tabPage12.UseVisualStyleBackColor = true;
+            this.tabDB.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.tabDB.Location = new System.Drawing.Point(4, 29);
+            this.tabDB.Name = "tabDB";
+            this.tabDB.Padding = new System.Windows.Forms.Padding(3);
+            this.tabDB.Size = new System.Drawing.Size(743, 395);
+            this.tabDB.TabIndex = 12;
+            this.tabDB.Text = "DB";
+            this.tabDB.UseVisualStyleBackColor = true;
             // 
             // tabPage13
             // 
@@ -303,10 +290,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.tabPages);
             this.Name = "phonebook_user_control";
             this.Size = new System.Drawing.Size(754, 431);
-            this.tabControl1.ResumeLayout(false);
+            this.tabPages.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -314,7 +301,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabControl tabPages;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.Button button1;
@@ -324,10 +311,9 @@
         private System.Windows.Forms.TabPage tabAPM;
         private System.Windows.Forms.TabPage tabAPActive;
         private System.Windows.Forms.TabPage tabAPTrace;
-        private System.Windows.Forms.TabPage tabPage9;
-        private System.Windows.Forms.TabPage tabPage10;
-        private System.Windows.Forms.TabPage tabPage11;
-        private System.Windows.Forms.TabPage tabPage12;
+        private System.Windows.Forms.TabPage tabART;
+        private System.Windows.Forms.TabPage tabPortal;
+        private System.Windows.Forms.TabPage tabDB;
         private System.Windows.Forms.TabPage tabPage13;
         private System.Windows.Forms.TabPage tabPage14;
         private System.Windows.Forms.TabPage tabPage15;

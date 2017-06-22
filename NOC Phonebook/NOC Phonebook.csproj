@@ -79,6 +79,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contact.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contact.Designer.cs">
+      <DependentUpon>Contact.cs</DependentUpon>
+    </Compile>
     <Compile Include="dashboard_user_control.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -128,6 +134,24 @@
     <Compile Include="Phonebook Tabs\ap_trace_user_control.Designer.cs">
       <DependentUpon>ap_trace_user_control.cs</DependentUpon>
     </Compile>
+    <Compile Include="Phonebook Tabs\art_user_control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phonebook Tabs\art_user_control.Designer.cs">
+      <DependentUpon>art_user_control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phonebook Tabs\db_user_control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phonebook Tabs\db_user_control.Designer.cs">
+      <DependentUpon>db_user_control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phonebook Tabs\portal_user_control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phonebook Tabs\portal_user_control.Designer.cs">
+      <DependentUpon>portal_user_control.cs</DependentUpon>
+    </Compile>
     <Compile Include="phonebook_user_control.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -136,6 +160,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Contact.resx">
+      <DependentUpon>Contact.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="dashboard_user_control.resx">
       <DependentUpon>dashboard_user_control.cs</DependentUpon>
     </EmbeddedResource>
@@ -159,6 +186,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Phonebook Tabs\ap_trace_user_control.resx">
       <DependentUpon>ap_trace_user_control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phonebook Tabs\art_user_control.resx">
+      <DependentUpon>art_user_control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phonebook Tabs\db_user_control.resx">
+      <DependentUpon>db_user_control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phonebook Tabs\portal_user_control.resx">
+      <DependentUpon>portal_user_control.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="phonebook_user_control.resx">
       <DependentUpon>phonebook_user_control.cs</DependentUpon>
