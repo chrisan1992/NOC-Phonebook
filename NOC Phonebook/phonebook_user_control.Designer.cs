@@ -41,8 +41,8 @@
             this.tabART = new System.Windows.Forms.TabPage();
             this.tabPortal = new System.Windows.Forms.TabPage();
             this.tabDB = new System.Windows.Forms.TabPage();
-            this.tabPage13 = new System.Windows.Forms.TabPage();
-            this.tabPage14 = new System.Windows.Forms.TabPage();
+            this.tabPPM = new System.Windows.Forms.TabPage();
+            this.tabSAW = new System.Windows.Forms.TabPage();
             this.tabPage15 = new System.Windows.Forms.TabPage();
             this.tabPage16 = new System.Windows.Forms.TabPage();
             this.tabPage17 = new System.Windows.Forms.TabPage();
@@ -66,8 +66,8 @@
             this.tabPages.Controls.Add(this.tabART);
             this.tabPages.Controls.Add(this.tabPortal);
             this.tabPages.Controls.Add(this.tabDB);
-            this.tabPages.Controls.Add(this.tabPage13);
-            this.tabPages.Controls.Add(this.tabPage14);
+            this.tabPages.Controls.Add(this.tabPPM);
+            this.tabPages.Controls.Add(this.tabSAW);
             this.tabPages.Controls.Add(this.tabPage15);
             this.tabPages.Controls.Add(this.tabPage16);
             this.tabPages.Controls.Add(this.tabPage17);
@@ -213,27 +213,27 @@
             this.tabDB.Text = "DB";
             this.tabDB.UseVisualStyleBackColor = true;
             // 
-            // tabPage13
+            // tabPPM
             // 
-            this.tabPage13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.tabPage13.Location = new System.Drawing.Point(4, 29);
-            this.tabPage13.Name = "tabPage13";
-            this.tabPage13.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage13.Size = new System.Drawing.Size(743, 395);
-            this.tabPage13.TabIndex = 13;
-            this.tabPage13.Text = "PPM";
-            this.tabPage13.UseVisualStyleBackColor = true;
+            this.tabPPM.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.tabPPM.Location = new System.Drawing.Point(4, 29);
+            this.tabPPM.Name = "tabPPM";
+            this.tabPPM.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPPM.Size = new System.Drawing.Size(743, 395);
+            this.tabPPM.TabIndex = 13;
+            this.tabPPM.Text = "PPM";
+            this.tabPPM.UseVisualStyleBackColor = true;
             // 
-            // tabPage14
+            // tabSAW
             // 
-            this.tabPage14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.tabPage14.Location = new System.Drawing.Point(4, 29);
-            this.tabPage14.Name = "tabPage14";
-            this.tabPage14.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage14.Size = new System.Drawing.Size(743, 395);
-            this.tabPage14.TabIndex = 14;
-            this.tabPage14.Text = "SAW";
-            this.tabPage14.UseVisualStyleBackColor = true;
+            this.tabSAW.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.tabSAW.Location = new System.Drawing.Point(4, 29);
+            this.tabSAW.Name = "tabSAW";
+            this.tabSAW.Padding = new System.Windows.Forms.Padding(3);
+            this.tabSAW.Size = new System.Drawing.Size(743, 395);
+            this.tabSAW.TabIndex = 14;
+            this.tabSAW.Text = "SAW";
+            this.tabSAW.UseVisualStyleBackColor = true;
             // 
             // tabPage15
             // 
@@ -314,8 +314,8 @@
         private System.Windows.Forms.TabPage tabART;
         private System.Windows.Forms.TabPage tabPortal;
         private System.Windows.Forms.TabPage tabDB;
-        private System.Windows.Forms.TabPage tabPage13;
-        private System.Windows.Forms.TabPage tabPage14;
+        private System.Windows.Forms.TabPage tabPPM;
+        private System.Windows.Forms.TabPage tabSAW;
         private System.Windows.Forms.TabPage tabPage15;
         private System.Windows.Forms.TabPage tabPage16;
         private System.Windows.Forms.TabPage tabPage17;

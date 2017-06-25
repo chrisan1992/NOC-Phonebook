@@ -30,6 +30,8 @@ namespace NOC_Phonebook
         private static art_user_control art_user_control;
         private static portal_user_control portal_user_control;
         private static db_user_control db_user_control;
+        private static ppm_user_control ppm_user_control;
+        private static saw_user_control saw_user_control;
 
         public phonebook_user_control()
         {
@@ -92,6 +94,18 @@ namespace NOC_Phonebook
             db_user_control.Call = call;
             tabDB.Controls.Clear();
             tabDB.Controls.Add(db_user_control);
+
+            //tabPPM
+            ppm_user_control = new ppm_user_control();
+            ppm_user_control.Call = call;
+            tabPPM.Controls.Clear();
+            tabPPM.Controls.Add(ppm_user_control);
+
+            //tabSAW
+            saw_user_control = new saw_user_control();
+            saw_user_control.Call = call;
+            tabSAW.Controls.Clear();
+            tabSAW.Controls.Add(saw_user_control);
 
         }
 

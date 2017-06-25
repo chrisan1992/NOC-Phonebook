@@ -152,6 +152,18 @@
     <Compile Include="Phonebook Tabs\portal_user_control.Designer.cs">
       <DependentUpon>portal_user_control.cs</DependentUpon>
     </Compile>
+    <Compile Include="Phonebook Tabs\ppm_user_control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phonebook Tabs\ppm_user_control.Designer.cs">
+      <DependentUpon>ppm_user_control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phonebook Tabs\saw_user_control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phonebook Tabs\saw_user_control.Designer.cs">
+      <DependentUpon>saw_user_control.cs</DependentUpon>
+    </Compile>
     <Compile Include="phonebook_user_control.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -195,6 +207,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Phonebook Tabs\portal_user_control.resx">
       <DependentUpon>portal_user_control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phonebook Tabs\ppm_user_control.resx">
+      <DependentUpon>ppm_user_control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phonebook Tabs\saw_user_control.resx">
+      <DependentUpon>saw_user_control.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="phonebook_user_control.resx">
       <DependentUpon>phonebook_user_control.cs</DependentUpon>
