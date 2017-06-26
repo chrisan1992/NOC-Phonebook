@@ -43,10 +43,10 @@
             this.tabDB = new System.Windows.Forms.TabPage();
             this.tabPPM = new System.Windows.Forms.TabPage();
             this.tabSAW = new System.Windows.Forms.TabPage();
-            this.tabPage15 = new System.Windows.Forms.TabPage();
-            this.tabPage16 = new System.Windows.Forms.TabPage();
-            this.tabPage17 = new System.Windows.Forms.TabPage();
-            this.tabPage18 = new System.Windows.Forms.TabPage();
+            this.tabSRL = new System.Windows.Forms.TabPage();
+            this.tabSRF = new System.Windows.Forms.TabPage();
+            this.tabUCMDB = new System.Windows.Forms.TabPage();
+            this.tabCrisis = new System.Windows.Forms.TabPage();
             this.tabPage19 = new System.Windows.Forms.TabPage();
             this.tabPages.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -68,10 +68,10 @@
             this.tabPages.Controls.Add(this.tabDB);
             this.tabPages.Controls.Add(this.tabPPM);
             this.tabPages.Controls.Add(this.tabSAW);
-            this.tabPages.Controls.Add(this.tabPage15);
-            this.tabPages.Controls.Add(this.tabPage16);
-            this.tabPages.Controls.Add(this.tabPage17);
-            this.tabPages.Controls.Add(this.tabPage18);
+            this.tabPages.Controls.Add(this.tabSRL);
+            this.tabPages.Controls.Add(this.tabSRF);
+            this.tabPages.Controls.Add(this.tabUCMDB);
+            this.tabPages.Controls.Add(this.tabCrisis);
             this.tabPages.Controls.Add(this.tabPage19);
             this.tabPages.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabPages.Location = new System.Drawing.Point(3, 3);
@@ -235,49 +235,53 @@
             this.tabSAW.Text = "SAW";
             this.tabSAW.UseVisualStyleBackColor = true;
             // 
-            // tabPage15
+            // tabSRL
             // 
-            this.tabPage15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.tabPage15.Location = new System.Drawing.Point(4, 29);
-            this.tabPage15.Name = "tabPage15";
-            this.tabPage15.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage15.Size = new System.Drawing.Size(743, 395);
-            this.tabPage15.TabIndex = 15;
-            this.tabPage15.Text = "SRL/PTaaS";
-            this.tabPage15.UseVisualStyleBackColor = true;
+            this.tabSRL.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.tabSRL.Location = new System.Drawing.Point(4, 29);
+            this.tabSRL.Name = "tabSRL";
+            this.tabSRL.Padding = new System.Windows.Forms.Padding(3);
+            this.tabSRL.Size = new System.Drawing.Size(743, 395);
+            this.tabSRL.TabIndex = 15;
+            this.tabSRL.Text = "SRL/PTaaS";
+            this.tabSRL.UseVisualStyleBackColor = true;
             // 
-            // tabPage16
+            // tabSRF
             // 
-            this.tabPage16.Location = new System.Drawing.Point(4, 29);
-            this.tabPage16.Name = "tabPage16";
-            this.tabPage16.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage16.Size = new System.Drawing.Size(743, 395);
-            this.tabPage16.TabIndex = 16;
-            this.tabPage16.Text = "SRF";
-            this.tabPage16.UseVisualStyleBackColor = true;
+            this.tabSRF.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.tabSRF.Location = new System.Drawing.Point(4, 29);
+            this.tabSRF.Name = "tabSRF";
+            this.tabSRF.Padding = new System.Windows.Forms.Padding(3);
+            this.tabSRF.Size = new System.Drawing.Size(743, 395);
+            this.tabSRF.TabIndex = 16;
+            this.tabSRF.Text = "SRF";
+            this.tabSRF.UseVisualStyleBackColor = true;
             // 
-            // tabPage17
+            // tabUCMDB
             // 
-            this.tabPage17.Location = new System.Drawing.Point(4, 29);
-            this.tabPage17.Name = "tabPage17";
-            this.tabPage17.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage17.Size = new System.Drawing.Size(743, 395);
-            this.tabPage17.TabIndex = 17;
-            this.tabPage17.Text = "UCMDB";
-            this.tabPage17.UseVisualStyleBackColor = true;
+            this.tabUCMDB.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.tabUCMDB.Location = new System.Drawing.Point(4, 29);
+            this.tabUCMDB.Name = "tabUCMDB";
+            this.tabUCMDB.Padding = new System.Windows.Forms.Padding(3);
+            this.tabUCMDB.Size = new System.Drawing.Size(743, 395);
+            this.tabUCMDB.TabIndex = 17;
+            this.tabUCMDB.Text = "UCMDB";
+            this.tabUCMDB.UseVisualStyleBackColor = true;
             // 
-            // tabPage18
+            // tabCrisis
             // 
-            this.tabPage18.Location = new System.Drawing.Point(4, 29);
-            this.tabPage18.Name = "tabPage18";
-            this.tabPage18.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage18.Size = new System.Drawing.Size(743, 395);
-            this.tabPage18.TabIndex = 18;
-            this.tabPage18.Text = "Crisis Managers";
-            this.tabPage18.UseVisualStyleBackColor = true;
+            this.tabCrisis.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.tabCrisis.Location = new System.Drawing.Point(4, 29);
+            this.tabCrisis.Name = "tabCrisis";
+            this.tabCrisis.Padding = new System.Windows.Forms.Padding(3);
+            this.tabCrisis.Size = new System.Drawing.Size(743, 395);
+            this.tabCrisis.TabIndex = 18;
+            this.tabCrisis.Text = "Crisis Managers";
+            this.tabCrisis.UseVisualStyleBackColor = true;
             // 
             // tabPage19
             // 
+            this.tabPage19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.tabPage19.Location = new System.Drawing.Point(4, 29);
             this.tabPage19.Name = "tabPage19";
             this.tabPage19.Padding = new System.Windows.Forms.Padding(3);
@@ -316,10 +320,10 @@
         private System.Windows.Forms.TabPage tabDB;
         private System.Windows.Forms.TabPage tabPPM;
         private System.Windows.Forms.TabPage tabSAW;
-        private System.Windows.Forms.TabPage tabPage15;
-        private System.Windows.Forms.TabPage tabPage16;
-        private System.Windows.Forms.TabPage tabPage17;
-        private System.Windows.Forms.TabPage tabPage18;
+        private System.Windows.Forms.TabPage tabSRL;
+        private System.Windows.Forms.TabPage tabSRF;
+        private System.Windows.Forms.TabPage tabUCMDB;
+        private System.Windows.Forms.TabPage tabCrisis;
         private System.Windows.Forms.TabPage tabPage19;
     }
 }

@@ -32,6 +32,10 @@ namespace NOC_Phonebook
         private static db_user_control db_user_control;
         private static ppm_user_control ppm_user_control;
         private static saw_user_control saw_user_control;
+        private static srl_user_control srl_user_control;
+        private static srf_user_control srf_user_control;
+        private static ucmdb_user_control ucmdb_user_control;
+        private static crisis_user_control crisis_user_control;
 
         public phonebook_user_control()
         {
@@ -106,6 +110,30 @@ namespace NOC_Phonebook
             saw_user_control.Call = call;
             tabSAW.Controls.Clear();
             tabSAW.Controls.Add(saw_user_control);
+
+            //tabSRL
+            srl_user_control = new srl_user_control();
+            srl_user_control.Call = call;
+            tabSRL.Controls.Clear();
+            tabSRL.Controls.Add(srl_user_control);
+
+            //tabSRF
+            srf_user_control = new srf_user_control();
+            srf_user_control.Call = call;
+            tabSRF.Controls.Clear();
+            tabSRF.Controls.Add(srf_user_control);
+
+            //tabUCMDB
+            ucmdb_user_control = new ucmdb_user_control();
+            ucmdb_user_control.Call = call;
+            tabUCMDB.Controls.Clear();
+            tabUCMDB.Controls.Add(ucmdb_user_control);
+
+            //tabCrisis
+            crisis_user_control = new crisis_user_control();
+            crisis_user_control.Call = call;
+            tabCrisis.Controls.Clear();
+            tabCrisis.Controls.Add(crisis_user_control);
 
         }
 

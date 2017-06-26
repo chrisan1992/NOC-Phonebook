@@ -140,6 +140,12 @@
     <Compile Include="Phonebook Tabs\art_user_control.Designer.cs">
       <DependentUpon>art_user_control.cs</DependentUpon>
     </Compile>
+    <Compile Include="Phonebook Tabs\crisis_user_control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phonebook Tabs\crisis_user_control.Designer.cs">
+      <DependentUpon>crisis_user_control.cs</DependentUpon>
+    </Compile>
     <Compile Include="Phonebook Tabs\db_user_control.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -163,6 +169,24 @@
     </Compile>
     <Compile Include="Phonebook Tabs\saw_user_control.Designer.cs">
       <DependentUpon>saw_user_control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phonebook Tabs\srf_user_control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phonebook Tabs\srf_user_control.Designer.cs">
+      <DependentUpon>srf_user_control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phonebook Tabs\srl_user_control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phonebook Tabs\srl_user_control.Designer.cs">
+      <DependentUpon>srl_user_control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phonebook Tabs\ucmdb_user_control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phonebook Tabs\ucmdb_user_control.Designer.cs">
+      <DependentUpon>ucmdb_user_control.cs</DependentUpon>
     </Compile>
     <Compile Include="phonebook_user_control.cs">
       <SubType>UserControl</SubType>
@@ -202,6 +226,9 @@
     <EmbeddedResource Include="Phonebook Tabs\art_user_control.resx">
       <DependentUpon>art_user_control.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Phonebook Tabs\crisis_user_control.resx">
+      <DependentUpon>crisis_user_control.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Phonebook Tabs\db_user_control.resx">
       <DependentUpon>db_user_control.cs</DependentUpon>
     </EmbeddedResource>
@@ -213,6 +240,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Phonebook Tabs\saw_user_control.resx">
       <DependentUpon>saw_user_control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phonebook Tabs\srf_user_control.resx">
+      <DependentUpon>srf_user_control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phonebook Tabs\srl_user_control.resx">
+      <DependentUpon>srl_user_control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phonebook Tabs\ucmdb_user_control.resx">
+      <DependentUpon>ucmdb_user_control.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="phonebook_user_control.resx">
       <DependentUpon>phonebook_user_control.cs</DependentUpon>
