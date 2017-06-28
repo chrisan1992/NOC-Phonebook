@@ -104,6 +104,18 @@
     <Compile Include="Phonebook Tabs\agm_user_control.Designer.cs">
       <DependentUpon>agm_user_control.cs</DependentUpon>
     </Compile>
+    <Compile Include="Phonebook Tabs\alm_pc_user_control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phonebook Tabs\alm_pc_user_control.Designer.cs">
+      <DependentUpon>alm_pc_user_control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phonebook Tabs\alm_qc_user_control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phonebook Tabs\alm_qc_user_control.Designer.cs">
+      <DependentUpon>alm_qc_user_control.cs</DependentUpon>
+    </Compile>
     <Compile Include="Phonebook Tabs\am_rc_user_control.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -213,6 +225,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Phonebook Tabs\agm_user_control.resx">
       <DependentUpon>agm_user_control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phonebook Tabs\alm_pc_user_control.resx">
+      <DependentUpon>alm_pc_user_control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phonebook Tabs\alm_qc_user_control.resx">
+      <DependentUpon>alm_qc_user_control.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Phonebook Tabs\am_rc_user_control.resx">
       <DependentUpon>am_rc_user_control.cs</DependentUpon>
