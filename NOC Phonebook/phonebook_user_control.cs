@@ -21,6 +21,8 @@ namespace NOC_Phonebook
     {
 
         private static LyncCall call;
+        private static List<Contact> contactList;
+
         private static agm_user_control agm_user_control;
         private static am_rc_user_control am_rc_user_control;
         private static anm_user_control anm_user_control;
@@ -44,7 +46,8 @@ namespace NOC_Phonebook
 
             //initialize call element
             call = new LyncCall();
-            
+
+            contactList = new List<Contact>();            
 
             //AGM Tab
             agm_user_control = new agm_user_control();

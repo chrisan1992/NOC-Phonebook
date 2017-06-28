@@ -152,6 +152,36 @@ namespace NOC_Phonebook.Phonebook_Tabs
                 call = value;
             }
         }
+
+        /// <summary>
+        /// Add contacts to the contact list
+        /// </summary>
+        /// <param name="contactList"></param>
+        public void Fill_list(List<Contact> contactList)
+        {
+            AddContactToList(contactList, Sergio_contact);
+            AddContactToList(contactList, Bin_contact);
+            AddContactToList(contactList, Sophie_contact);
+            AddContactToList(contactList, Amin_contact);
+            AddContactToList(contactList, Gitit_contact);
+            AddContactToList(contactList, Anatoly_contact);
+            AddContactToList(contactList, Avital_contact);
+            AddContactToList(contactList, Itay_contact);
+            AddContactToList(contactList, Vadim_contact);
+        }
+
+        /// <summary>
+        /// Adding a contact to the list
+        /// </summary>
+        /// <param name="contactList">list</param>
+        /// <param name="contact">contact to add</param>
+        private void AddContactToList(List<Contact> contactList, Contact contact)
+        {
+            if (!contactList.Any(x => x.ContactLabel == contact.ContactLabel))
+            {
+                contactList.Add(contact);
+            }
+        }
         
     }
 }

@@ -77,7 +77,7 @@
             // AlexDekman_contact
             // 
             this.AlexDekman_contact.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(163)))), ((int)(((byte)(130)))));
-            this.AlexDekman_contact.ContactLabel = "Contact Name";
+            this.AlexDekman_contact.ContactLabel = "Alex Dekman";
             this.AlexDekman_contact.Location = new System.Drawing.Point(30, 40);
             this.AlexDekman_contact.Name = "AlexDekman_contact";
             this.AlexDekman_contact.Size = new System.Drawing.Size(211, 46);
@@ -86,7 +86,7 @@
             // AmirGabay_contact
             // 
             this.AmirGabay_contact.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(163)))), ((int)(((byte)(130)))));
-            this.AmirGabay_contact.ContactLabel = "Contact Name";
+            this.AmirGabay_contact.ContactLabel = "Amir Gabay";
             this.AmirGabay_contact.Location = new System.Drawing.Point(30, 193);
             this.AmirGabay_contact.Name = "AmirGabay_contact";
             this.AmirGabay_contact.Size = new System.Drawing.Size(211, 46);
@@ -95,7 +95,7 @@
             // ItayLaxer_contact
             // 
             this.ItayLaxer_contact.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(163)))), ((int)(((byte)(130)))));
-            this.ItayLaxer_contact.ContactLabel = "Contact Name";
+            this.ItayLaxer_contact.ContactLabel = "Itay Laxer";
             this.ItayLaxer_contact.Location = new System.Drawing.Point(270, 193);
             this.ItayLaxer_contact.Name = "ItayLaxer_contact";
             this.ItayLaxer_contact.Size = new System.Drawing.Size(211, 46);
@@ -104,7 +104,7 @@
             // VadimWaisman_contact
             // 
             this.VadimWaisman_contact.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(163)))), ((int)(((byte)(130)))));
-            this.VadimWaisman_contact.ContactLabel = "Contact Name";
+            this.VadimWaisman_contact.ContactLabel = "Vadim Waisman";
             this.VadimWaisman_contact.Location = new System.Drawing.Point(513, 193);
             this.VadimWaisman_contact.Name = "VadimWaisman_contact";
             this.VadimWaisman_contact.Size = new System.Drawing.Size(211, 46);

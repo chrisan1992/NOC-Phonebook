@@ -22,19 +22,15 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void InitializeControls()
         {
-            AlexDekman_contact.ContactLabel = "Alex Dekman";
             AlexDekman_contact.MobileButtonClick += new EventHandler(AlexDekam_mobile);
             AlexDekman_contact.SkypeButtonClick += new EventHandler(AlexDekman_skype);
-
-            AmirGabay_contact.ContactLabel = "Amir Gabay";
+            
             AmirGabay_contact.MobileButtonClick += new EventHandler(AmirGabay_mobile);
             AmirGabay_contact.SkypeButtonClick += new EventHandler(AmirGabay_skype);
-
-            ItayLaxer_contact.ContactLabel = "Itay Laxer";
+            
             ItayLaxer_contact.MobileButtonClick += new EventHandler(ItayLaxer_mobile);
             ItayLaxer_contact.SkypeButtonClick += new EventHandler(ItayLaxer_skype);
-
-            VadimWaisman_contact.ContactLabel = "Vadim Waisman";
+            
             VadimWaisman_contact.MobileButtonClick += new EventHandler(VadimWaisman_mobile);
             VadimWaisman_contact.SkypeButtonClick += new EventHandler(VadimWaisman_skype);
         }
@@ -89,6 +85,31 @@ namespace NOC_Phonebook.Phonebook_Tabs
             set
             {
                 call = value;
+            }
+        }
+
+        /// <summary>
+        /// Add contacts to the contact list
+        /// </summary>
+        /// <param name="contactList"></param>
+        public void Fill_list(List<Contact> contactList)
+        {
+            AddContactToList(contactList, AlexDekman_contact);
+            AddContactToList(contactList, AmirGabay_contact);
+            AddContactToList(contactList, ItayLaxer_contact);
+            AddContactToList(contactList, VadimWaisman_contact);
+        }
+
+        /// <summary>
+        /// Adding a contact to the list
+        /// </summary>
+        /// <param name="contactList">list</param>
+        /// <param name="contact">contact to add</param>
+        private void AddContactToList(List<Contact> contactList, Contact contact)
+        {
+            if (!contactList.Any(x => x.ContactLabel == contact.ContactLabel))
+            {
+                contactList.Add(contact);
             }
         }
 

@@ -99,6 +99,32 @@ namespace NOC_Phonebook.Phonebook_Tabs
                 call = value;
             }
         }
-        
+
+        /// <summary>
+        /// Add contacts to the contact list
+        /// </summary>
+        /// <param name="contactList"></param>
+        public void Fill_list(List<Contact> contactList)
+        {
+            AddContactToList(contactList, Karvin_contact);
+            AddContactToList(contactList, Alex_contact);
+            AddContactToList(contactList, Igal_contact);
+            AddContactToList(contactList, Diego_contact);
+            AddContactToList(contactList, Yossi_contact);
+        }
+
+        /// <summary>
+        /// Adding a contact to the list
+        /// </summary>
+        /// <param name="contactList">list</param>
+        /// <param name="contact">contact to add</param>
+        private void AddContactToList(List<Contact> contactList, Contact contact)
+        {
+            if (!contactList.Any(x => x.ContactLabel == contact.ContactLabel))
+            {
+                contactList.Add(contact);
+            }
+        }
+
     }
 }
