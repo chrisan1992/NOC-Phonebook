@@ -11,14 +11,17 @@ namespace NOC_Phonebook
 {
     public partial class dashboard_user_control : UserControl
     {
+
+        private static List<Contact> ContactList;
+
         public dashboard_user_control()
         {
             InitializeComponent();
-            //Panel[] paneles = new Panel[5];//number of rows from the query
-            /*for (int i = 0; i < 5; ++i)
-            {
-                
-            }*/
+        }
+
+        public void SetContactList(List<Contact> contacts)
+        {
+            ContactList = contacts;
         }
 
         /// <summary>
@@ -28,31 +31,14 @@ namespace NOC_Phonebook
         /// <param name="e"></param>
         private void button1_Click(object sender, EventArgs e)
         {
-
+            String searchFor = textBox1.Text;
+            foreach (Contact c in ContactList)
+            {
+                if (c.ContactLabel.IndexOf(searchFor, StringComparison.OrdinalIgnoreCase) >= 0)
+                {
+                    MessageBox.Show(c.ContactLabel);
+                }
+            }
         }
     }
 }
-
-
-
-
-
-
-
-/*
- * 
- * 
- * LinkLabel[] arrLbl = new LinkLabel[5];
-
-for (int i = 0; i < 5; i++)
-{
-   LinkLabel lbl = new LinkLabel();
-   lbl.Text = "Label: " + i.ToString();
-   arrLbl[i] = lbl;
-}
-
-foreach (Control c in arrLbl)
-  this.Controls.Add(c);
- * 
- * 
- * */

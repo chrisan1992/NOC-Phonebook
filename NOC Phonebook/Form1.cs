@@ -23,6 +23,8 @@ namespace NOC_Phonebook
         private static dashboard_user_control dashboard;
         private static phonebook_user_control phonebook;
 
+        private List<Contact> ContactList;
+
 
         public Home()
         {
@@ -31,6 +33,9 @@ namespace NOC_Phonebook
             //initialization of the variables
             dashboard = new dashboard_user_control();
             phonebook = new phonebook_user_control();
+
+            ContactList = phonebook.GetContactList();
+            dashboard.SetContactList(ContactList);
 
             //clear the container and add the first view
             main_panel.Controls.Clear();

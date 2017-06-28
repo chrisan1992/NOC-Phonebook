@@ -52,96 +52,112 @@ namespace NOC_Phonebook
             //AGM Tab
             agm_user_control = new agm_user_control();
             agm_user_control.Call = call;
+            agm_user_control.Fill_list(contactList);
             tabAGM.Controls.Clear();
             tabAGM.Controls.Add(agm_user_control);
 
             //AM RC Tab
             am_rc_user_control = new am_rc_user_control();
             am_rc_user_control.Call = call;
+            am_rc_user_control.Fill_list(contactList);
             tabAMRC.Controls.Clear();
             tabAMRC.Controls.Add(am_rc_user_control);
 
             //AnM Tab
             anm_user_control = new anm_user_control();
             anm_user_control.Call = call;
+            anm_user_control.Fill_list(contactList);
             tabAnM.Controls.Clear();
             tabAnM.Controls.Add(anm_user_control);
 
             //tabAPM
             apm_user_control = new apm_user_control();
             apm_user_control.Call = call;
+            apm_user_control.Fill_list(contactList);
             tabAPM.Controls.Clear();
             tabAPM.Controls.Add(apm_user_control);
 
             //tabAPActive
             ap_active_user_control = new ap_active_user_control();
             ap_active_user_control.Call = call;
+            ap_active_user_control.Fill_list(contactList);
             tabAPActive.Controls.Clear();
             tabAPActive.Controls.Add(ap_active_user_control);
 
             //tabAPMobile
             ap_mobile_user_control = new ap_mobile_user_control();
             ap_mobile_user_control.Call = call;
+            ap_mobile_user_control.Fill_list(contactList);
             tabAPMobile.Controls.Clear();
             tabAPMobile.Controls.Add(ap_mobile_user_control);
 
             //tabAPTrace
             ap_trace_user_control = new ap_trace_user_control();
             ap_trace_user_control.Call = call;
+            ap_trace_user_control.Fill_list(contactList);
             tabAPTrace.Controls.Clear();
             tabAPTrace.Controls.Add(ap_trace_user_control);
 
             //tabART
             art_user_control = new art_user_control();
             art_user_control.Call = call;
+            art_user_control.Fill_list(contactList);
             tabART.Controls.Clear();
             tabART.Controls.Add(art_user_control);
 
             //tabPortal
             portal_user_control = new portal_user_control();
             portal_user_control.Call = call;
+            portal_user_control.Fill_list(contactList);
             tabPortal.Controls.Clear();
             tabPortal.Controls.Add(portal_user_control);
 
             //tabDB
             db_user_control = new db_user_control();
             db_user_control.Call = call;
+            db_user_control.Fill_list(contactList);
             tabDB.Controls.Clear();
             tabDB.Controls.Add(db_user_control);
 
             //tabPPM
             ppm_user_control = new ppm_user_control();
             ppm_user_control.Call = call;
+            ppm_user_control.Fill_list(contactList);
             tabPPM.Controls.Clear();
             tabPPM.Controls.Add(ppm_user_control);
 
             //tabSAW
             saw_user_control = new saw_user_control();
             saw_user_control.Call = call;
+            saw_user_control.Fill_list(contactList);
             tabSAW.Controls.Clear();
             tabSAW.Controls.Add(saw_user_control);
 
             //tabSRL
             srl_user_control = new srl_user_control();
             srl_user_control.Call = call;
+            srl_user_control.Fill_list(contactList);
             tabSRL.Controls.Clear();
             tabSRL.Controls.Add(srl_user_control);
 
             //tabSRF
             srf_user_control = new srf_user_control();
             srf_user_control.Call = call;
+            srf_user_control.Fill_list(contactList);
             tabSRF.Controls.Clear();
             tabSRF.Controls.Add(srf_user_control);
 
             //tabUCMDB
             ucmdb_user_control = new ucmdb_user_control();
             ucmdb_user_control.Call = call;
+            ucmdb_user_control.Fill_list(contactList);
             tabUCMDB.Controls.Clear();
             tabUCMDB.Controls.Add(ucmdb_user_control);
 
             //tabCrisis
             crisis_user_control = new crisis_user_control();
             crisis_user_control.Call = call;
+            crisis_user_control.Fill_list(contactList);
             tabCrisis.Controls.Clear();
             tabCrisis.Controls.Add(crisis_user_control);
 
@@ -169,6 +185,11 @@ namespace NOC_Phonebook
                     catch (OperationException oe) { MessageBox.Show("Operation exception on start conversation " + oe.Message); };
                 },
                 null);
+        }
+
+        public List<Contact> GetContactList()
+        {
+            return contactList;
         }
     }
 }
