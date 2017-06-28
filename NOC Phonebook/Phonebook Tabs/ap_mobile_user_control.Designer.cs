@@ -1,6 +1,6 @@
 ﻿namespace NOC_Phonebook.Phonebook_Tabs
 {
-    partial class ap_active_user_control
+    partial class ap_mobile_user_control
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,27 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Karvin_contact = new NOC_Phonebook.Contact();
+            this.Edwin_contact = new NOC_Phonebook.Contact();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.Alex_contact = new NOC_Phonebook.Contact();
+            this.Fadi_contact = new NOC_Phonebook.Contact();
+            this.Ghassam_contact = new NOC_Phonebook.Contact();
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.Yossi_contact = new NOC_Phonebook.Contact();
-            this.Diego_contact = new NOC_Phonebook.Contact();
-            this.Igal_contact = new NOC_Phonebook.Contact();
+            this.TalTalmon_contact = new NOC_Phonebook.Contact();
+            this.Itay_contact = new NOC_Phonebook.Contact();
+            this.Yessenia_contact = new NOC_Phonebook.Contact();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // Karvin_contact
+            // Edwin_contact
             // 
-            this.Karvin_contact.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(163)))), ((int)(((byte)(130)))));
-            this.Karvin_contact.ContactLabel = "Karvin Graham";
-            this.Karvin_contact.Location = new System.Drawing.Point(23, 33);
-            this.Karvin_contact.Name = "Karvin_contact";
-            this.Karvin_contact.Size = new System.Drawing.Size(211, 46);
-            this.Karvin_contact.TabIndex = 41;
+            this.Edwin_contact.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(163)))), ((int)(((byte)(130)))));
+            this.Edwin_contact.ContactLabel = "Edwin Perez";
+            this.Edwin_contact.Location = new System.Drawing.Point(23, 33);
+            this.Edwin_contact.Name = "Edwin_contact";
+            this.Edwin_contact.Size = new System.Drawing.Size(211, 46);
+            this.Edwin_contact.TabIndex = 41;
             // 
             // label2
             // 
@@ -68,14 +69,23 @@
             this.label3.TabIndex = 39;
             this.label3.Text = "AMS Engineers";
             // 
-            // Alex_contact
+            // Fadi_contact
             // 
-            this.Alex_contact.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(163)))), ((int)(((byte)(130)))));
-            this.Alex_contact.ContactLabel = "Alex Furman";
-            this.Alex_contact.Location = new System.Drawing.Point(23, 150);
-            this.Alex_contact.Name = "Alex_contact";
-            this.Alex_contact.Size = new System.Drawing.Size(211, 46);
-            this.Alex_contact.TabIndex = 46;
+            this.Fadi_contact.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(163)))), ((int)(((byte)(130)))));
+            this.Fadi_contact.ContactLabel = "Fadi Tuma";
+            this.Fadi_contact.Location = new System.Drawing.Point(263, 150);
+            this.Fadi_contact.Name = "Fadi_contact";
+            this.Fadi_contact.Size = new System.Drawing.Size(211, 46);
+            this.Fadi_contact.TabIndex = 48;
+            // 
+            // Ghassam_contact
+            // 
+            this.Ghassam_contact.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(163)))), ((int)(((byte)(130)))));
+            this.Ghassam_contact.ContactLabel = "Ghassam Ibrahim";
+            this.Ghassam_contact.Location = new System.Drawing.Point(23, 150);
+            this.Ghassam_contact.Name = "Ghassam_contact";
+            this.Ghassam_contact.Size = new System.Drawing.Size(211, 46);
+            this.Ghassam_contact.TabIndex = 47;
             // 
             // label1
             // 
@@ -83,7 +93,7 @@
             this.label1.Location = new System.Drawing.Point(137, 131);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(587, 2);
-            this.label1.TabIndex = 45;
+            this.label1.TabIndex = 46;
             // 
             // label4
             // 
@@ -92,40 +102,40 @@
             this.label4.Location = new System.Drawing.Point(6, 120);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(134, 21);
-            this.label4.TabIndex = 44;
+            this.label4.TabIndex = 45;
             this.label4.Text = "EMEA Engineers";
             // 
-            // Yossi_contact
+            // TalTalmon_contact
             // 
-            this.Yossi_contact.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(163)))), ((int)(((byte)(130)))));
-            this.Yossi_contact.ContactLabel = "Yossi Shpirer";
-            this.Yossi_contact.Location = new System.Drawing.Point(506, 271);
-            this.Yossi_contact.Name = "Yossi_contact";
-            this.Yossi_contact.Size = new System.Drawing.Size(211, 46);
-            this.Yossi_contact.TabIndex = 55;
+            this.TalTalmon_contact.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(163)))), ((int)(((byte)(130)))));
+            this.TalTalmon_contact.ContactLabel = "Tal Talmon";
+            this.TalTalmon_contact.Location = new System.Drawing.Point(506, 264);
+            this.TalTalmon_contact.Name = "TalTalmon_contact";
+            this.TalTalmon_contact.Size = new System.Drawing.Size(211, 46);
+            this.TalTalmon_contact.TabIndex = 55;
             // 
-            // Diego_contact
+            // Itay_contact
             // 
-            this.Diego_contact.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(163)))), ((int)(((byte)(130)))));
-            this.Diego_contact.ContactLabel = "Diego Clachar";
-            this.Diego_contact.Location = new System.Drawing.Point(263, 271);
-            this.Diego_contact.Name = "Diego_contact";
-            this.Diego_contact.Size = new System.Drawing.Size(211, 46);
-            this.Diego_contact.TabIndex = 54;
+            this.Itay_contact.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(163)))), ((int)(((byte)(130)))));
+            this.Itay_contact.ContactLabel = "Itay Laxer";
+            this.Itay_contact.Location = new System.Drawing.Point(263, 264);
+            this.Itay_contact.Name = "Itay_contact";
+            this.Itay_contact.Size = new System.Drawing.Size(211, 46);
+            this.Itay_contact.TabIndex = 54;
             // 
-            // Igal_contact
+            // Yessenia_contact
             // 
-            this.Igal_contact.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(163)))), ((int)(((byte)(130)))));
-            this.Igal_contact.ContactLabel = "Igal Barboy";
-            this.Igal_contact.Location = new System.Drawing.Point(23, 271);
-            this.Igal_contact.Name = "Igal_contact";
-            this.Igal_contact.Size = new System.Drawing.Size(211, 46);
-            this.Igal_contact.TabIndex = 53;
+            this.Yessenia_contact.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(163)))), ((int)(((byte)(130)))));
+            this.Yessenia_contact.ContactLabel = "Yessenia Gonzales";
+            this.Yessenia_contact.Location = new System.Drawing.Point(23, 264);
+            this.Yessenia_contact.Name = "Yessenia_contact";
+            this.Yessenia_contact.Size = new System.Drawing.Size(211, 46);
+            this.Yessenia_contact.TabIndex = 53;
             // 
             // label5
             // 
             this.label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label5.Location = new System.Drawing.Point(137, 252);
+            this.label5.Location = new System.Drawing.Point(137, 245);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(587, 2);
             this.label5.TabIndex = 52;
@@ -134,28 +144,29 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(6, 241);
+            this.label6.Location = new System.Drawing.Point(6, 234);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(89, 21);
             this.label6.TabIndex = 51;
             this.label6.Text = "Managers";
             // 
-            // ap_active_user_control
+            // ap_mobile_user_control
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.Yossi_contact);
-            this.Controls.Add(this.Diego_contact);
-            this.Controls.Add(this.Igal_contact);
+            this.Controls.Add(this.TalTalmon_contact);
+            this.Controls.Add(this.Itay_contact);
+            this.Controls.Add(this.Yessenia_contact);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.Alex_contact);
+            this.Controls.Add(this.Fadi_contact);
+            this.Controls.Add(this.Ghassam_contact);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.Karvin_contact);
+            this.Controls.Add(this.Edwin_contact);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
-            this.Name = "ap_active_user_control";
+            this.Name = "ap_mobile_user_control";
             this.Padding = new System.Windows.Forms.Padding(3);
             this.Size = new System.Drawing.Size(743, 395);
             this.ResumeLayout(false);
@@ -165,15 +176,16 @@
 
         #endregion
 
-        private Contact Karvin_contact;
+        private Contact Edwin_contact;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private Contact Alex_contact;
+        private Contact Fadi_contact;
+        private Contact Ghassam_contact;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
-        private Contact Yossi_contact;
-        private Contact Diego_contact;
-        private Contact Igal_contact;
+        private Contact TalTalmon_contact;
+        private Contact Itay_contact;
+        private Contact Yessenia_contact;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
     }

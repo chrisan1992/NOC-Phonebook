@@ -20,6 +20,16 @@ namespace NOC_Phonebook
                 
             }*/
         }
+
+        /// <summary>
+        /// Search from the User controls the one specified
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

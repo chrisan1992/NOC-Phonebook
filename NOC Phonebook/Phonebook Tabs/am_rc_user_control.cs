@@ -16,7 +16,90 @@ namespace NOC_Phonebook.Phonebook_Tabs
         public am_rc_user_control()
         {
             InitializeComponent();
+            InitializeControls();
         }
+
+        private void InitializeControls()
+        {
+            Keerthi_contact.MobileButtonClick += new EventHandler(Keerthi_mobile);
+            Keerthi_contact.SkypeButtonClick += new EventHandler(Keerthi_skype);
+
+            Anand_contact.MobileButtonClick += new EventHandler(Anand_mobile);
+            Anand_contact.SkypeButtonClick += new EventHandler(Anand_skype);
+
+            Vaasuthevan_contact.MobileButtonClick += new EventHandler(Vaasuthevan_mobile);
+            Vaasuthevan_contact.SkypeButtonClick += new EventHandler(Vaasuthevan_skype);
+
+            Dileep_contact.MobileButtonClick += new EventHandler(Dileep_mobile);
+            Dileep_contact.SkypeButtonClick += new EventHandler(Dileep_skype);
+
+            Igal_contact.MobileButtonClick += new EventHandler(Igal_mobile);
+            Igal_contact.SkypeButtonClick += new EventHandler(Igal_skype);
+
+            Yossi_contact.MobileButtonClick += new EventHandler(Yossi_mobile);
+            Yossi_contact.SkypeButtonClick += new EventHandler(Yossi_skype);
+        }
+
+        private void Yossi_skype(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Yossi_mobile(object sender, EventArgs e)
+        {
+            call.makeCall("+972525697029");
+        }
+
+        private void Igal_skype(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Igal_mobile(object sender, EventArgs e)
+        {
+            call.makeCall("+972506380116");
+        }
+
+        private void Dileep_skype(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Dileep_mobile(object sender, EventArgs e)
+        {
+            call.makeCall("+91  9994191448");
+        }
+
+        private void Vaasuthevan_skype(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Vaasuthevan_mobile(object sender, EventArgs e)
+        {
+            call.makeCall("+91 9962537685");
+        }
+
+        private void Anand_skype(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Anand_mobile(object sender, EventArgs e)
+        {
+            call.makeCall("+91  9880508508");
+        }
+
+        private void Keerthi_skype(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Keerthi_mobile(object sender, EventArgs e)
+        {
+            call.makeCall("+91  9677181157");
+        }
+
         // Declare a Name property of type string:
         public LyncCall Call
         {
@@ -29,60 +112,6 @@ namespace NOC_Phonebook.Phonebook_Tabs
                 call = value;
             }
         }
-
-        private void btn_keerthi_mobile_Click(object sender, EventArgs e)
-        {
-            call.makeCall("91  9677181157");
-        }
-
-        private void btn_keerthi_skype_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_AnandMamadapur_mobile_Click(object sender, EventArgs e)
-        {
-            call.makeCall("91  9880508508");
-        }
-
-        private void btn_Vaasuthevan_mobile_Click(object sender, EventArgs e)
-        {
-            call.makeCall("91 9962537685");
-        }
-
-        private void btn_Vaasuthevan_skype_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_DileepPerumal_mobile_Click(object sender, EventArgs e)
-        {
-            call.makeCall("91  9994191448");
-        }
-
-        private void btn_DileepPerumal_skype_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_IgalBarboy_mobile_Click(object sender, EventArgs e)
-        {
-            call.makeCall("+972506380116");
-        }
-
-        private void btn_IgalBarboy_skype_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_YossiShpirer_mobile_Click(object sender, EventArgs e)
-        {
-            call.makeCall("+972525697029");
-        }
-
-        private void btn_YossiShpirer_skype_Click(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

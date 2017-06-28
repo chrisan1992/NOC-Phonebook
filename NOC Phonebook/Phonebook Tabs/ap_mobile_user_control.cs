@@ -9,12 +9,11 @@ using System.Windows.Forms;
 
 namespace NOC_Phonebook.Phonebook_Tabs
 {
-    public partial class ap_trace_user_control : UserControl
+    public partial class ap_mobile_user_control : UserControl
     {
-
         private static LyncCall call;
 
-        public ap_trace_user_control()
+        public ap_mobile_user_control()
         {
             InitializeComponent();
             InitializeControls();
@@ -43,7 +42,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void Tal_skype(object sender, EventArgs e)
         {
-
+            
         }
 
         private void Tal_mobile(object sender, EventArgs e)
@@ -53,7 +52,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void Itay_skype(object sender, EventArgs e)
         {
-
+            
         }
 
         private void Itay_mobile(object sender, EventArgs e)
@@ -63,7 +62,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void Yessenia_skype(object sender, EventArgs e)
         {
-
+            
         }
 
         private void Yessenia_mobile(object sender, EventArgs e)
@@ -73,7 +72,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void Fadi_skype(object sender, EventArgs e)
         {
-
+            
         }
 
         private void Fadi_mobile(object sender, EventArgs e)
@@ -83,7 +82,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void Ghassan_skype(object sender, EventArgs e)
         {
-
+            
         }
 
         private void Ghassan_mobile(object sender, EventArgs e)
@@ -93,7 +92,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void Edwin_skype(object sender, EventArgs e)
         {
-
+            
         }
 
         private void Edwin_mobile(object sender, EventArgs e)
@@ -113,6 +112,5 @@ namespace NOC_Phonebook.Phonebook_Tabs
                 call = value;
             }
         }
-
     }
 }

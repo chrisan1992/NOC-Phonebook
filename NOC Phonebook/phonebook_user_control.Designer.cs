@@ -37,6 +37,7 @@
             this.tabAnM = new System.Windows.Forms.TabPage();
             this.tabAPM = new System.Windows.Forms.TabPage();
             this.tabAPActive = new System.Windows.Forms.TabPage();
+            this.tabAPMobile = new System.Windows.Forms.TabPage();
             this.tabAPTrace = new System.Windows.Forms.TabPage();
             this.tabART = new System.Windows.Forms.TabPage();
             this.tabPortal = new System.Windows.Forms.TabPage();
@@ -62,6 +63,7 @@
             this.tabPages.Controls.Add(this.tabAnM);
             this.tabPages.Controls.Add(this.tabAPM);
             this.tabPages.Controls.Add(this.tabAPActive);
+            this.tabPages.Controls.Add(this.tabAPMobile);
             this.tabPages.Controls.Add(this.tabAPTrace);
             this.tabPages.Controls.Add(this.tabART);
             this.tabPages.Controls.Add(this.tabPortal);
@@ -168,6 +170,17 @@
             this.tabAPActive.TabIndex = 7;
             this.tabAPActive.Text = "Ap Active";
             this.tabAPActive.UseVisualStyleBackColor = true;
+            // 
+            // tabAPMobile
+            // 
+            this.tabAPMobile.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.tabAPMobile.Location = new System.Drawing.Point(4, 29);
+            this.tabAPMobile.Name = "tabAPMobile";
+            this.tabAPMobile.Padding = new System.Windows.Forms.Padding(3);
+            this.tabAPMobile.Size = new System.Drawing.Size(743, 395);
+            this.tabAPMobile.TabIndex = 20;
+            this.tabAPMobile.Text = "AP Mobile";
+            this.tabAPMobile.UseVisualStyleBackColor = true;
             // 
             // tabAPTrace
             // 
@@ -325,5 +338,6 @@
         private System.Windows.Forms.TabPage tabUCMDB;
         private System.Windows.Forms.TabPage tabCrisis;
         private System.Windows.Forms.TabPage tabPage19;
+        private System.Windows.Forms.TabPage tabAPMobile;
     }
 }

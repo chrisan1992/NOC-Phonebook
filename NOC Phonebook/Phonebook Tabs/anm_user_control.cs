@@ -18,6 +18,152 @@ namespace NOC_Phonebook.Phonebook_Tabs
             InitializeComponent();
         }
 
+        private void InitializeControls()
+        {
+            Mario_contact.MobileButtonClick += new EventHandler(Mario_mobile);
+            Mario_contact.SkypeButtonClick += new EventHandler(Mario_skype);
+
+            Alon_contact.MobileButtonClick += new EventHandler(Alon_mobile);
+            Alon_contact.SkypeButtonClick += new EventHandler(Alon_skype);
+
+            Moshe_contact.MobileButtonClick += new EventHandler(Moshe_mobile);
+            Moshe_contact.SkypeButtonClick += new EventHandler(Moshe_skype);
+
+            Tal_contact.MobileButtonClick += new EventHandler(Tal_mobile);
+            Tal_contact.SkypeButtonClick += new EventHandler(Tal_skype);
+
+            Elia_contact.MobileButtonClick += new EventHandler(Elia_mobile);
+            Elia_contact.SkypeButtonClick += new EventHandler(Elia_skype);
+
+            Merav_contact.MobileButtonClick += new EventHandler(Merav_mobile);
+            Merav_contact.SkypeButtonClick += new EventHandler(Merav_skype);
+
+            Jacob_contact.MobileButtonClick += new EventHandler(Jacob_mobile);
+            Jacob_contact.SkypeButtonClick += new EventHandler(Jacob_skype);
+
+            David_contact.MobileButtonClick += new EventHandler(David_mobile);
+            David_contact.SkypeButtonClick += new EventHandler(David_skype);
+
+            Inas_contact.MobileButtonClick += new EventHandler(Inas_mobile);
+            Inas_contact.SkypeButtonClick += new EventHandler(Inas_skype);
+
+            Tsahhi_contact.MobileButtonClick += new EventHandler(Tsahhi_mobile);
+            Tsahhi_contact.SkypeButtonClick += new EventHandler(Tsahhi_skype);
+
+            MosheM_contact.MobileButtonClick += new EventHandler(MosheM_mobile);
+            MosheM_contact.SkypeButtonClick += new EventHandler(MosheM_skype);
+        }
+
+        private void MosheM_skype(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void MosheM_mobile(object sender, EventArgs e)
+        {
+            call.makeCall("+972503137667");
+        }
+
+        private void Tsahhi_skype(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Tsahhi_mobile(object sender, EventArgs e)
+        {
+            call.makeCall("+972506474284");
+        }
+
+        private void Inas_skype(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Inas_mobile(object sender, EventArgs e)
+        {
+            call.makeCall("+972503137671");
+        }
+
+        private void David_skype(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void David_mobile(object sender, EventArgs e)
+        {
+            call.makeCall("+972 54 4497037");
+        }
+
+        private void Jacob_skype(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Jacob_mobile(object sender, EventArgs e)
+        {
+            call.makeCall("+972 546 818525");
+        }
+
+        private void Merav_skype(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Merav_mobile(object sender, EventArgs e)
+        {
+            call.makeCall("+972 50 3137633");
+        }
+
+        private void Elia_skype(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Elia_mobile(object sender, EventArgs e)
+        {
+            call.makeCall("+972503137566");
+        }
+
+        private void Tal_skype(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Tal_mobile(object sender, EventArgs e)
+        {
+            call.makeCall("+972 54 4497009");
+        }
+
+        private void Moshe_skype(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Moshe_mobile(object sender, EventArgs e)
+        {
+            call.makeCall("+972 50 3137636");
+        }
+
+        private void Alon_skype(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Alon_mobile(object sender, EventArgs e)
+        {
+            call.makeCall("+972509552021");
+        }
+
+        private void Mario_skype(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Mario_mobile(object sender, EventArgs e)
+        {
+            call.makeCall("+50683443195");
+        }
+
         // Declare a Name property of type string:
         public LyncCall Call
         {
@@ -30,115 +176,6 @@ namespace NOC_Phonebook.Phonebook_Tabs
                 call = value;
             }
         }
-
-        private void btn_MarioMora_mobile_Click(object sender, EventArgs e)
-        {
-            call.makeCall("+506 83443195");
-        }
-
-        private void btn_MarioMora_skype_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_LitalAlon_mobile_Click(object sender, EventArgs e)
-        {
-            call.makeCall("+972509552021");
-        }
-
-        private void btn_LitalAlon_skype_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_MosheBoim_mobile_Click(object sender, EventArgs e)
-        {
-            call.makeCall("+972-50-3137636");
-        }
-
-        private void btn_MosheBoim_skype_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_TalHilzenrat_mobile_Click(object sender, EventArgs e)
-        {
-            call.makeCall("+972-54-4497009");
-        }
-
-        private void btn_TalHilzenrat_skype_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_EliaJahshan_mobile_Click(object sender, EventArgs e)
-        {
-            call.makeCall("+972503137566");
-        }
-
-        private void btn_EliaJahshan_skype_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_MeravMeizler_mobile_Click(object sender, EventArgs e)
-        {
-            call.makeCall("+972-50-3137633");
-        }
-
-        private void btn_MeravMeizler_skype_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_JacobSaleh_mobile_Click(object sender, EventArgs e)
-        {
-            call.makeCall("	+972-546-818525");
-        }
-
-        private void btn_JacobSaleh_skype_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_Davidsalkin_mobile_Click(object sender, EventArgs e)
-        {
-            call.makeCall("+972-54-4497037");
-        }
-
-        private void btn_Davidsalkin_skype_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_InasShamsi_mobile_Click(object sender, EventArgs e)
-        {
-            call.makeCall("+972503137671");
-        }
-
-        private void btn_InasShamsi_skype_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_TsahhiSharon_mobile_Click(object sender, EventArgs e)
-        {
-            call.makeCall("+972506474284");
-        }
-
-        private void btn_TsahhiSharon_skype_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_MosheMamia_mobile_Click(object sender, EventArgs e)
-        {
-            call.makeCall("+972503137667");
-        }
-
-        private void btn_MosheMamia_skype_Click(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

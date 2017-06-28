@@ -17,6 +17,127 @@ namespace NOC_Phonebook.Phonebook_Tabs
         public agm_user_control()
         {
             InitializeComponent();
+            InitializeControls();
+        }
+
+        private void InitializeControls()
+        {
+            Sergio_contact.MobileButtonClick += new EventHandler(Sergio_mobile);
+            Sergio_contact.SkypeButtonClick += new EventHandler(Sergio_skype);
+
+            Bin_contact.MobileButtonClick += new EventHandler(Bin_mobile);
+            Bin_contact.SkypeButtonClick += new EventHandler(Bin_skype);
+
+            Sophie_contact.MobileButtonClick += new EventHandler(Sophie_mobile);
+            Sophie_contact.SkypeButtonClick += new EventHandler(Sophie_skype);
+
+            Amin_contact.MobileButtonClick += new EventHandler(Amin_mobile);
+            Amin_contact.SkypeButtonClick += new EventHandler(Amin_skype);
+
+            Gitit_contact.MobileButtonClick += new EventHandler(Gitit_mobile);
+            Gitit_contact.SkypeButtonClick += new EventHandler(Gitit_skype);
+
+            Anatoly_contact.MobileButtonClick += new EventHandler(Anatoly_mobile);
+            Anatoly_contact.SkypeButtonClick += new EventHandler(Anatoly_skype);
+
+            Avital_contact.MobileButtonClick += new EventHandler(Avital_mobile);
+            Avital_contact.SkypeButtonClick += new EventHandler(Avital_skype);
+
+            Itay_contact.MobileButtonClick += new EventHandler(Itay_mobile);
+            Itay_contact.SkypeButtonClick += new EventHandler(Itay_skype);
+
+            Vadim_contact.MobileButtonClick += new EventHandler(Vadim_mobile);
+            Vadim_contact.SkypeButtonClick += new EventHandler(Vadmi_skype);
+        }
+
+        private void Vadmi_skype(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Vadim_mobile(object sender, EventArgs e)
+        {
+            call.makeCall("+972525759368");
+        }
+
+        private void Itay_skype(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Itay_mobile(object sender, EventArgs e)
+        {
+            call.makeCall("+972 54 4497019");
+        }
+
+        private void Avital_skype(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Avital_mobile(object sender, EventArgs e)
+        {
+            call.makeCall("+972 54 5597063");
+        }
+
+        private void Anatoly_skype(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Anatoly_mobile(object sender, EventArgs e)
+        {
+            call.makeCall("+972 54 4745220");
+        }
+
+        private void Gitit_skype(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Gitit_mobile(object sender, EventArgs e)
+        {
+            call.makeCall("+972 50 3137647");
+        }
+
+        private void Amin_skype(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Amin_mobile(object sender, EventArgs e)
+        {
+            call.makeCall("+972 50 3137553");
+        }
+
+        private void Sophie_skype(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Sophie_mobile(object sender, EventArgs e)
+        {
+            call.makeCall("+972 52 8151810");
+        }
+
+        private void Bin_skype(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Bin_mobile(object sender, EventArgs e)
+        {
+            call.makeCall("+1 408 5064899");
+        }
+
+        private void Sergio_skype(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Sergio_mobile(object sender, EventArgs e)
+        {
+            call.makeCall("+50688971861");
         }
 
         // Declare a Name property of type string:
@@ -31,95 +152,6 @@ namespace NOC_Phonebook.Phonebook_Tabs
                 call = value;
             }
         }
-
-        private void btn_SergioMonge_Mobile_Click(object sender, EventArgs e)
-        {
-            call.makeCall("506 88971861");
-        }
-
-        private void btn_SergioMonge_skype_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_BinXu_mobile_Click(object sender, EventArgs e)
-        {
-            call.makeCall("+1-408-506-4899");
-        }        
-
-        private void btn_BinXu_skype_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_SophieAlush_mobile_Click(object sender, EventArgs e)
-        {
-            call.makeCall("+972-52-8151810");
-        }
-
-        private void btn_SophieAlush_skype_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_AminHabash_mobile_Click(object sender, EventArgs e)
-        {
-            call.makeCall("+972-50-313-7553");
-        }
-
-        private void btn_AminHabash_skype_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_GititNevo_mobile_Click(object sender, EventArgs e)
-        {
-            call.makeCall("+972-50-3137647");
-        }
-
-        private void btn_GititNevo_skype_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_Anatoly_mobile_Click(object sender, EventArgs e)
-        {
-            call.makeCall("+972-54-4745220");
-        }
-
-        private void btn_Anatoly_skype_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_AvitalKarni_mobile_Click(object sender, EventArgs e)
-        {
-            call.makeCall("+972 54 5597063");
-        }
-
-        private void btn_AvitalKarni_skype_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_ItayLaxer_mobile_Click(object sender, EventArgs e)
-        {
-            call.makeCall("+972 54 4497019");
-        }
-
-        private void btn_ItayLaxer_skype_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_VadimWaisman_mobile_Click(object sender, EventArgs e)
-        {
-            call.makeCall("+972525759368");
-        }
-
-        private void btn_VadimWaisman_skype_Click(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }
