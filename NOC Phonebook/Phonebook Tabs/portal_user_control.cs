@@ -21,24 +21,31 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void InitializeControls()
         {
+            GaryGlasspool_contact.MobileNumber = "+1 4082036412";
             GaryGlasspool_contact.MobileButtonClick += new EventHandler(GaryGlasspool_mobile);
             GaryGlasspool_contact.SkypeButtonClick += new EventHandler(GaryGlasspool_skype);
 
+            GilderLopez_contact.MobileNumber = "+506 60030690";
             GilderLopez_contact.MobileButtonClick += new EventHandler(GilderLopez_mobile);
             GilderLopez_contact.SkypeButtonClick += new EventHandler(Gilderlopez_skype);
 
+            LilliamXu_contact.MobileNumber = "+408 799 0092";
             LilliamXu_contact.MobileButtonClick += new EventHandler(LillianXu_mobile);
             LilliamXu_contact.SkypeButtonClick += new EventHandler(LillianXu_skype);
 
+            alexDekman_contact.MobileNumber = "+972 547854455";
             alexDekman_contact.MobileButtonClick += new EventHandler(AlexDekman_mobile);
             alexDekman_contact.SkypeButtonClick += new EventHandler(AlexDekman_skype);
 
+            JumanaKass_contact.MobileNumber = "+972547665782";
             JumanaKass_contact.MobileButtonClick += new EventHandler(JumanaKass_mobile);
             JumanaKass_contact.SkypeButtonClick += new EventHandler(JumanaKass_skype);
 
+            VadimWaisman_contact.MobileNumber = "+972525759368";
             VadimWaisman_contact.MobileButtonClick += new EventHandler(VadimWaisman_mobile);
             VadimWaisman_contact.SkypeButtonClick += new EventHandler(VadimWaisman_skype);
 
+            AmirGabay_contact.MobileNumber = "+972 548301016";
             AmirGabay_contact.MobileButtonClick += new EventHandler(AmirGabay_mobile);
             AmirGabay_contact.SkypeButtonClick += new EventHandler(AmirGabay_skype);
         }
@@ -50,7 +57,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void AmirGabay_mobile(object sender, EventArgs e)
         {
-            call.makeCall("+972 548301016");
+            call.makeCall(AmirGabay_contact.MobileNumber);
         }
 
         private void VadimWaisman_skype(object sender, EventArgs e)
@@ -60,7 +67,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void VadimWaisman_mobile(object sender, EventArgs e)
         {
-            call.makeCall("+972525759368");
+            call.makeCall(VadimWaisman_contact.MobileNumber);
         }
 
         private void JumanaKass_skype(object sender, EventArgs e)
@@ -70,7 +77,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void JumanaKass_mobile(object sender, EventArgs e)
         {
-            call.makeCall("+972547665782");
+            call.makeCall(JumanaKass_contact.MobileNumber);
         }
 
         private void AlexDekman_skype(object sender, EventArgs e)
@@ -80,7 +87,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void AlexDekman_mobile(object sender, EventArgs e)
         {
-            call.makeCall("+972 547854455");
+            call.makeCall(alexDekman_contact.MobileNumber);
         }
 
         private void LillianXu_skype(object sender, EventArgs e)
@@ -90,7 +97,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void LillianXu_mobile(object sender, EventArgs e)
         {
-            call.makeCall("+408 799 0092");
+            call.makeCall(LilliamXu_contact.MobileNumber);
         }
 
         private void Gilderlopez_skype(object sender, EventArgs e)
@@ -100,7 +107,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void GilderLopez_mobile(object sender, EventArgs e)
         {
-            call.makeCall("+506 60030690");
+            call.makeCall(GilderLopez_contact.MobileNumber);
         }
 
         private void GaryGlasspool_skype(object sender, EventArgs e)
@@ -110,7 +117,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void GaryGlasspool_mobile(object sender, EventArgs e)
         {
-            call.makeCall("+1 4082036412");
+            call.makeCall(GaryGlasspool_contact.MobileNumber);
         }
 
         // Declare a Name property of type string:

@@ -21,21 +21,27 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void InitializeControls()
         {
+            Edwin_contact.MobileNumber = "+506 87029212";
             Edwin_contact.MobileButtonClick += new EventHandler(Edwin_mobile);
             Edwin_contact.SkypeButtonClick += new EventHandler(Edwin_skype);
 
+            Ghassam_contact.MobileNumber = "+972523055944";
             Ghassam_contact.MobileButtonClick += new EventHandler(Ghassan_mobile);
             Ghassam_contact.SkypeButtonClick += new EventHandler(Ghassan_skype);
 
+            Fadi_contact.MobileNumber = "972 545416840";
             Fadi_contact.MobileButtonClick += new EventHandler(Fadi_mobile);
             Fadi_contact.SkypeButtonClick += new EventHandler(Fadi_skype);
 
+            Yessenia_contact.MobileNumber = "+50660507776";
             Yessenia_contact.MobileButtonClick += new EventHandler(Yessenia_mobile);
             Yessenia_contact.SkypeButtonClick += new EventHandler(Yessenia_skype);
 
+            Itay_contact.MobileNumber = "+972 54 4497019";
             Itay_contact.MobileButtonClick += new EventHandler(Itay_mobile);
             Itay_contact.SkypeButtonClick += new EventHandler(Itay_skype);
 
+            TalTalmon_contact.MobileNumber = "+972 545597074";
             TalTalmon_contact.MobileButtonClick += new EventHandler(Tal_mobile);
             TalTalmon_contact.SkypeButtonClick += new EventHandler(Tal_skype);
         }
@@ -47,7 +53,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void Tal_mobile(object sender, EventArgs e)
         {
-            call.makeCall("+972 545597074");
+            call.makeCall(TalTalmon_contact.MobileNumber);
         }
 
         private void Itay_skype(object sender, EventArgs e)
@@ -57,7 +63,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void Itay_mobile(object sender, EventArgs e)
         {
-            call.makeCall("+972 54 4497019");
+            call.makeCall(Itay_contact.MobileNumber);
         }
 
         private void Yessenia_skype(object sender, EventArgs e)
@@ -67,7 +73,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void Yessenia_mobile(object sender, EventArgs e)
         {
-            call.makeCall("+50660507776");
+            call.makeCall(Yessenia_contact.MobileNumber);
         }
 
         private void Fadi_skype(object sender, EventArgs e)
@@ -77,7 +83,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void Fadi_mobile(object sender, EventArgs e)
         {
-            call.makeCall("972 545416840");
+            call.makeCall(Fadi_contact.MobileNumber);
         }
 
         private void Ghassan_skype(object sender, EventArgs e)
@@ -87,7 +93,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void Ghassan_mobile(object sender, EventArgs e)
         {
-            call.makeCall("+972523055944");
+            call.makeCall(Ghassam_contact.MobileNumber);
         }
 
         private void Edwin_skype(object sender, EventArgs e)
@@ -97,7 +103,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void Edwin_mobile(object sender, EventArgs e)
         {
-            call.makeCall("+506 87029212");
+            call.makeCall(Edwin_contact.MobileNumber);
         }
 
         // Declare a Name property of type string:

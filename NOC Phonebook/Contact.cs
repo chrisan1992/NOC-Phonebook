@@ -13,6 +13,8 @@ namespace NOC_Phonebook
     {
         public event EventHandler MobileButtonClick;
         public event EventHandler SkypeButtonClick;
+        private String mobileNumber;
+        private String skypeNumber;
 
         public Contact()
         {
@@ -37,6 +39,30 @@ namespace NOC_Phonebook
             //bubble the event up to the parent
             if (this.SkypeButtonClick != null)
                 this.SkypeButtonClick(this, e);
+        }
+
+        public String MobileNumber
+        {
+            get
+            {
+                return mobileNumber;
+            }
+            set
+            {
+                mobileNumber = value;
+            }
+        }
+
+        public String SkypeNumber
+        {
+            get
+            {
+                return skypeNumber;
+            }
+            set
+            {
+                skypeNumber = value;
+            }
         }
     }
 }

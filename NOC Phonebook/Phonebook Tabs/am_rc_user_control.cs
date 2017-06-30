@@ -21,21 +21,27 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void InitializeControls()
         {
+            Keerthi_contact.MobileNumber = "+91  9677181157";
             Keerthi_contact.MobileButtonClick += new EventHandler(Keerthi_mobile);
             Keerthi_contact.SkypeButtonClick += new EventHandler(Keerthi_skype);
 
+            Anand_contact.MobileNumber = "+91  9880508508";
             Anand_contact.MobileButtonClick += new EventHandler(Anand_mobile);
             Anand_contact.SkypeButtonClick += new EventHandler(Anand_skype);
 
+            Vaasuthevan_contact.MobileNumber = "+91 9962537685";
             Vaasuthevan_contact.MobileButtonClick += new EventHandler(Vaasuthevan_mobile);
             Vaasuthevan_contact.SkypeButtonClick += new EventHandler(Vaasuthevan_skype);
 
+            Dileep_contact.MobileNumber = "+91  9994191448";
             Dileep_contact.MobileButtonClick += new EventHandler(Dileep_mobile);
             Dileep_contact.SkypeButtonClick += new EventHandler(Dileep_skype);
 
+            Igal_contact.MobileNumber = "+972506380116";
             Igal_contact.MobileButtonClick += new EventHandler(Igal_mobile);
             Igal_contact.SkypeButtonClick += new EventHandler(Igal_skype);
 
+            Yossi_contact.MobileNumber = "+972525697029";
             Yossi_contact.MobileButtonClick += new EventHandler(Yossi_mobile);
             Yossi_contact.SkypeButtonClick += new EventHandler(Yossi_skype);
         }
@@ -47,7 +53,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void Yossi_mobile(object sender, EventArgs e)
         {
-            call.makeCall("+972525697029");
+            call.makeCall(Yossi_contact.MobileNumber);
         }
 
         private void Igal_skype(object sender, EventArgs e)
@@ -57,7 +63,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void Igal_mobile(object sender, EventArgs e)
         {
-            call.makeCall("+972506380116");
+            call.makeCall(Igal_contact.MobileNumber);
         }
 
         private void Dileep_skype(object sender, EventArgs e)
@@ -67,7 +73,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void Dileep_mobile(object sender, EventArgs e)
         {
-            call.makeCall("+91  9994191448");
+            call.makeCall(Dileep_contact.MobileNumber);
         }
 
         private void Vaasuthevan_skype(object sender, EventArgs e)
@@ -77,7 +83,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void Vaasuthevan_mobile(object sender, EventArgs e)
         {
-            call.makeCall("+91 9962537685");
+            call.makeCall(Vaasuthevan_contact.MobileNumber);
         }
 
         private void Anand_skype(object sender, EventArgs e)
@@ -87,7 +93,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void Anand_mobile(object sender, EventArgs e)
         {
-            call.makeCall("+91  9880508508");
+            call.makeCall(Anand_contact.MobileNumber);
         }
 
         private void Keerthi_skype(object sender, EventArgs e)
@@ -97,7 +103,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void Keerthi_mobile(object sender, EventArgs e)
         {
-            call.makeCall("+91  9677181157");
+            call.makeCall(Keerthi_contact.MobileNumber);
         }
 
         // Declare a Name property of type string:

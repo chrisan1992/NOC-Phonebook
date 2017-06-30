@@ -36,7 +36,7 @@ namespace NOC_Phonebook
             {
                 if (c.ContactLabel.IndexOf(searchFor, StringComparison.OrdinalIgnoreCase) >= 0)
                 {
-                    MessageBox.Show(c.ContactLabel);
+                    MessageBox.Show("Name: "+c.ContactLabel+"\nNumber: "+c.MobileNumber);
                 }
             }
         }
