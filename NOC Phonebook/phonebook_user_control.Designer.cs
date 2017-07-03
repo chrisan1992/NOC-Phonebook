@@ -30,9 +30,8 @@
         {
             this.tabPages = new System.Windows.Forms.TabControl();
             this.tabAGM = new System.Windows.Forms.TabPage();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.button1 = new System.Windows.Forms.Button();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabALMPC = new System.Windows.Forms.TabPage();
+            this.tabALMQC = new System.Windows.Forms.TabPage();
             this.tabAMRC = new System.Windows.Forms.TabPage();
             this.tabAnM = new System.Windows.Forms.TabPage();
             this.tabAPM = new System.Windows.Forms.TabPage();
@@ -50,15 +49,14 @@
             this.tabCrisis = new System.Windows.Forms.TabPage();
             this.tabPage19 = new System.Windows.Forms.TabPage();
             this.tabPages.SuspendLayout();
-            this.tabPage1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabPages
             // 
             this.tabPages.Appearance = System.Windows.Forms.TabAppearance.FlatButtons;
             this.tabPages.Controls.Add(this.tabAGM);
-            this.tabPages.Controls.Add(this.tabPage1);
-            this.tabPages.Controls.Add(this.tabPage2);
+            this.tabPages.Controls.Add(this.tabALMPC);
+            this.tabPages.Controls.Add(this.tabALMQC);
             this.tabPages.Controls.Add(this.tabAMRC);
             this.tabPages.Controls.Add(this.tabAnM);
             this.tabPages.Controls.Add(this.tabAPM);
@@ -93,38 +91,27 @@
             this.tabAGM.Text = "AGM";
             this.tabAGM.UseVisualStyleBackColor = true;
             // 
-            // tabPage1
+            // tabALMPC
             // 
-            this.tabPage1.Controls.Add(this.button1);
-            this.tabPage1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.tabPage1.Location = new System.Drawing.Point(4, 29);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(743, 395);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "ALM PC";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            this.tabALMPC.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.tabALMPC.Location = new System.Drawing.Point(4, 29);
+            this.tabALMPC.Name = "tabALMPC";
+            this.tabALMPC.Padding = new System.Windows.Forms.Padding(3);
+            this.tabALMPC.Size = new System.Drawing.Size(743, 395);
+            this.tabALMPC.TabIndex = 0;
+            this.tabALMPC.Text = "ALM PC";
+            this.tabALMPC.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // tabALMQC
             // 
-            this.button1.Location = new System.Drawing.Point(334, 186);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Call";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.tabPage2.Location = new System.Drawing.Point(4, 29);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(743, 395);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "ALM QC";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.tabALMQC.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.tabALMQC.Location = new System.Drawing.Point(4, 29);
+            this.tabALMQC.Name = "tabALMQC";
+            this.tabALMQC.Padding = new System.Windows.Forms.Padding(3);
+            this.tabALMQC.Size = new System.Drawing.Size(743, 395);
+            this.tabALMQC.TabIndex = 1;
+            this.tabALMQC.Text = "ALM QC";
+            this.tabALMQC.UseVisualStyleBackColor = true;
             // 
             // tabAMRC
             // 
@@ -311,7 +298,6 @@
             this.Name = "phonebook_user_control";
             this.Size = new System.Drawing.Size(754, 431);
             this.tabPages.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -319,9 +305,8 @@
         #endregion
 
         private System.Windows.Forms.TabControl tabPages;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TabPage tabALMPC;
+        private System.Windows.Forms.TabPage tabALMQC;
         private System.Windows.Forms.TabPage tabAGM;
         private System.Windows.Forms.TabPage tabAMRC;
         private System.Windows.Forms.TabPage tabAnM;

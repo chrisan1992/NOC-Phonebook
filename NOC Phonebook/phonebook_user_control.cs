@@ -24,6 +24,8 @@ namespace NOC_Phonebook
         private static List<Contact> contactList;
 
         private static agm_user_control agm_user_control;
+        private static alm_pc_user_control alm_pc_user_control;
+        private static alm_qc_user_control alm_qc_user_control;
         private static am_rc_user_control am_rc_user_control;
         private static anm_user_control anm_user_control;
         private static apm_user_control apm_user_control;
@@ -55,6 +57,20 @@ namespace NOC_Phonebook
             agm_user_control.Fill_list(contactList);
             tabAGM.Controls.Clear();
             tabAGM.Controls.Add(agm_user_control);
+
+            //tabALMPC
+            alm_pc_user_control = new alm_pc_user_control();
+            alm_pc_user_control.Call = call;
+            alm_pc_user_control.Fill_list(contactList);
+            tabALMPC.Controls.Clear();
+            tabALMPC.Controls.Add(alm_pc_user_control);
+
+            //tabALMQC
+            alm_qc_user_control = new alm_qc_user_control();
+            alm_qc_user_control.Call = call;
+            alm_qc_user_control.Fill_list(contactList);
+            tabALMQC.Controls.Clear();
+            tabALMQC.Controls.Add(alm_qc_user_control);
 
             //AM RC Tab
             am_rc_user_control = new am_rc_user_control();
