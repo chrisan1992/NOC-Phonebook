@@ -47,7 +47,7 @@
             this.tabSRF = new System.Windows.Forms.TabPage();
             this.tabUCMDB = new System.Windows.Forms.TabPage();
             this.tabCrisis = new System.Windows.Forms.TabPage();
-            this.tabPage19 = new System.Windows.Forms.TabPage();
+            this.tabCSM = new System.Windows.Forms.TabPage();
             this.tabPages.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,20 +59,20 @@
             this.tabPages.Controls.Add(this.tabALMQC);
             this.tabPages.Controls.Add(this.tabAMRC);
             this.tabPages.Controls.Add(this.tabAnM);
-            this.tabPages.Controls.Add(this.tabAPM);
             this.tabPages.Controls.Add(this.tabAPActive);
             this.tabPages.Controls.Add(this.tabAPMobile);
             this.tabPages.Controls.Add(this.tabAPTrace);
+            this.tabPages.Controls.Add(this.tabAPM);
             this.tabPages.Controls.Add(this.tabART);
-            this.tabPages.Controls.Add(this.tabPortal);
+            this.tabPages.Controls.Add(this.tabCrisis);
+            this.tabPages.Controls.Add(this.tabCSM);
             this.tabPages.Controls.Add(this.tabDB);
+            this.tabPages.Controls.Add(this.tabPortal);
             this.tabPages.Controls.Add(this.tabPPM);
             this.tabPages.Controls.Add(this.tabSAW);
-            this.tabPages.Controls.Add(this.tabSRL);
             this.tabPages.Controls.Add(this.tabSRF);
+            this.tabPages.Controls.Add(this.tabSRL);
             this.tabPages.Controls.Add(this.tabUCMDB);
-            this.tabPages.Controls.Add(this.tabCrisis);
-            this.tabPages.Controls.Add(this.tabPage19);
             this.tabPages.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabPages.Location = new System.Drawing.Point(3, 3);
             this.tabPages.Name = "tabPages";
@@ -279,16 +279,16 @@
             this.tabCrisis.Text = "Crisis Managers";
             this.tabCrisis.UseVisualStyleBackColor = true;
             // 
-            // tabPage19
+            // tabCSM
             // 
-            this.tabPage19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.tabPage19.Location = new System.Drawing.Point(4, 29);
-            this.tabPage19.Name = "tabPage19";
-            this.tabPage19.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage19.Size = new System.Drawing.Size(743, 395);
-            this.tabPage19.TabIndex = 19;
-            this.tabPage19.Text = "CSM";
-            this.tabPage19.UseVisualStyleBackColor = true;
+            this.tabCSM.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.tabCSM.Location = new System.Drawing.Point(4, 29);
+            this.tabCSM.Name = "tabCSM";
+            this.tabCSM.Padding = new System.Windows.Forms.Padding(3);
+            this.tabCSM.Size = new System.Drawing.Size(743, 395);
+            this.tabCSM.TabIndex = 19;
+            this.tabCSM.Text = "CSM";
+            this.tabCSM.UseVisualStyleBackColor = true;
             // 
             // phonebook_user_control
             // 
@@ -322,7 +322,7 @@
         private System.Windows.Forms.TabPage tabSRF;
         private System.Windows.Forms.TabPage tabUCMDB;
         private System.Windows.Forms.TabPage tabCrisis;
-        private System.Windows.Forms.TabPage tabPage19;
+        private System.Windows.Forms.TabPage tabCSM;
         private System.Windows.Forms.TabPage tabAPMobile;
     }
 }

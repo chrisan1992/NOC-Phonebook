@@ -31,8 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(dashboard_user_control));
             this.panel8 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtSearch = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.search_result_1 = new NOC_Phonebook.Contact();
+            this.search_result_3 = new NOC_Phonebook.Contact();
+            this.search_result_2 = new NOC_Phonebook.Contact();
             this.panel8.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,15 +59,15 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Search";
             // 
-            // textBox1
+            // txtSearch
             // 
-            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 15.75F);
-            this.textBox1.Location = new System.Drawing.Point(270, 32);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(375, 42);
-            this.textBox1.TabIndex = 16;
+            this.txtSearch.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtSearch.Font = new System.Drawing.Font("Century Gothic", 20.75F);
+            this.txtSearch.Location = new System.Drawing.Point(270, 32);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(375, 41);
+            this.txtSearch.TabIndex = 16;
+            this.txtSearch.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSearch_KeyPress);
             // 
             // button1
             // 
@@ -79,13 +82,52 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // search_result_1
+            // 
+            this.search_result_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(163)))), ((int)(((byte)(130)))));
+            this.search_result_1.ContactLabel = "Contact Name";
+            this.search_result_1.Location = new System.Drawing.Point(48, 158);
+            this.search_result_1.MobileNumber = null;
+            this.search_result_1.Name = "search_result_1";
+            this.search_result_1.Size = new System.Drawing.Size(211, 46);
+            this.search_result_1.SkypeNumber = null;
+            this.search_result_1.TabIndex = 18;
+            this.search_result_1.Visible = false;
+            // 
+            // search_result_3
+            // 
+            this.search_result_3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(163)))), ((int)(((byte)(130)))));
+            this.search_result_3.ContactLabel = "Contact Name";
+            this.search_result_3.Location = new System.Drawing.Point(497, 158);
+            this.search_result_3.MobileNumber = null;
+            this.search_result_3.Name = "search_result_3";
+            this.search_result_3.Size = new System.Drawing.Size(211, 46);
+            this.search_result_3.SkypeNumber = null;
+            this.search_result_3.TabIndex = 19;
+            this.search_result_3.Visible = false;
+            // 
+            // search_result_2
+            // 
+            this.search_result_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(163)))), ((int)(((byte)(130)))));
+            this.search_result_2.ContactLabel = "Contact Name";
+            this.search_result_2.Location = new System.Drawing.Point(272, 158);
+            this.search_result_2.MobileNumber = null;
+            this.search_result_2.Name = "search_result_2";
+            this.search_result_2.Size = new System.Drawing.Size(211, 46);
+            this.search_result_2.SkypeNumber = null;
+            this.search_result_2.TabIndex = 20;
+            this.search_result_2.Visible = false;
+            // 
             // dashboard_user_control
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
+            this.Controls.Add(this.search_result_2);
+            this.Controls.Add(this.search_result_3);
+            this.Controls.Add(this.search_result_1);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.panel8);
             this.Name = "dashboard_user_control";
             this.Size = new System.Drawing.Size(754, 431);
@@ -99,7 +141,10 @@
         #endregion
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.Button button1;
+        private Contact search_result_1;
+        private Contact search_result_3;
+        private Contact search_result_2;
     }
 }
