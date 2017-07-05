@@ -16,6 +16,7 @@ namespace NOC_Phonebook.Phonebook_Tabs
         public anm_user_control()
         {
             InitializeComponent();
+            InitializeControls();
         }
 
         private void InitializeControls()

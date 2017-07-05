@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(dashboard_user_control));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel8 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.btnSearch = new System.Windows.Forms.Button();
-            this.search_result_1 = new NOC_Phonebook.Contact();
-            this.search_result_3 = new NOC_Phonebook.Contact();
-            this.search_result_2 = new NOC_Phonebook.Contact();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel8
@@ -82,50 +82,32 @@
             this.btnSearch.UseVisualStyleBackColor = false;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
-            // search_result_1
+            // dataGridView1
             // 
-            this.search_result_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(163)))), ((int)(((byte)(130)))));
-            this.search_result_1.ContactLabel = "Contact Name";
-            this.search_result_1.Location = new System.Drawing.Point(48, 158);
-            this.search_result_1.MobileNumber = null;
-            this.search_result_1.Name = "search_result_1";
-            this.search_result_1.Size = new System.Drawing.Size(211, 46);
-            this.search_result_1.SkypeNumber = null;
-            this.search_result_1.TabIndex = 18;
-            this.search_result_1.Visible = false;
-            // 
-            // search_result_3
-            // 
-            this.search_result_3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(163)))), ((int)(((byte)(130)))));
-            this.search_result_3.ContactLabel = "Contact Name";
-            this.search_result_3.Location = new System.Drawing.Point(497, 158);
-            this.search_result_3.MobileNumber = null;
-            this.search_result_3.Name = "search_result_3";
-            this.search_result_3.Size = new System.Drawing.Size(211, 46);
-            this.search_result_3.SkypeNumber = null;
-            this.search_result_3.TabIndex = 19;
-            this.search_result_3.Visible = false;
-            // 
-            // search_result_2
-            // 
-            this.search_result_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(163)))), ((int)(((byte)(130)))));
-            this.search_result_2.ContactLabel = "Contact Name";
-            this.search_result_2.Location = new System.Drawing.Point(272, 158);
-            this.search_result_2.MobileNumber = null;
-            this.search_result_2.Name = "search_result_2";
-            this.search_result_2.Size = new System.Drawing.Size(211, 46);
-            this.search_result_2.SkypeNumber = null;
-            this.search_result_2.TabIndex = 20;
-            this.search_result_2.Visible = false;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(250)))));
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(85)))), ((int)(((byte)(99)))));
+            this.dataGridView1.Location = new System.Drawing.Point(48, 107);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(85)))), ((int)(((byte)(99)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(3);
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(163)))), ((int)(((byte)(130)))));
+            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGridView1.RowTemplate.Height = 30;
+            this.dataGridView1.Size = new System.Drawing.Size(660, 277);
+            this.dataGridView1.TabIndex = 21;
             // 
             // dashboard_user_control
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
-            this.Controls.Add(this.search_result_2);
-            this.Controls.Add(this.search_result_3);
-            this.Controls.Add(this.search_result_1);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.panel8);
@@ -133,6 +115,7 @@
             this.Size = new System.Drawing.Size(754, 431);
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -143,8 +126,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.Button btnSearch;
-        private Contact search_result_1;
-        private Contact search_result_3;
-        private Contact search_result_2;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

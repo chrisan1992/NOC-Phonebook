@@ -160,6 +160,13 @@ namespace NOC_Phonebook.Phonebook_Tabs
         {
             AddContactToList(contactList, Sergio_contact);
             AddContactToList(contactList, Bin_contact);
+            AddContactToList(contactList, Sophi_contact);
+            AddContactToList(contactList, Amin_contact);
+            AddContactToList(contactList, Gitit_contact);
+            AddContactToList(contactList, Anatoly_contact);
+            AddContactToList(contactList, Avital_contact);
+            AddContactToList(contactList, Itay_contact);
+            AddContactToList(contactList, Vadim_contact);
         }
 
         /// <summary>
