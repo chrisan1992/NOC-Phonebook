@@ -184,6 +184,12 @@
     <Compile Include="Phonebook Tabs\crisis_user_control.Designer.cs">
       <DependentUpon>crisis_user_control.cs</DependentUpon>
     </Compile>
+    <Compile Include="Phonebook Tabs\csm_user_control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phonebook Tabs\csm_user_control.Designer.cs">
+      <DependentUpon>csm_user_control.cs</DependentUpon>
+    </Compile>
     <Compile Include="Phonebook Tabs\db_user_control.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -278,6 +284,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Phonebook Tabs\crisis_user_control.resx">
       <DependentUpon>crisis_user_control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phonebook Tabs\csm_user_control.resx">
+      <DependentUpon>csm_user_control.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Phonebook Tabs\db_user_control.resx">
       <DependentUpon>db_user_control.cs</DependentUpon>

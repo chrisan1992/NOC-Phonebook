@@ -41,6 +41,7 @@ namespace NOC_Phonebook
         private static srf_user_control srf_user_control;
         private static ucmdb_user_control ucmdb_user_control;
         private static crisis_user_control crisis_user_control;
+        private static csm_user_control csm_user_control;
 
         public phonebook_user_control()
         {
@@ -176,6 +177,13 @@ namespace NOC_Phonebook
             crisis_user_control.Fill_list(contactList);
             tabCrisis.Controls.Clear();
             tabCrisis.Controls.Add(crisis_user_control);
+
+            //tabCSM
+            csm_user_control = new csm_user_control();
+            csm_user_control.Call = call;
+            csm_user_control.Fill_list(contactList);
+            tabCSM.Controls.Clear();
+            tabCSM.Controls.Add(csm_user_control);
 
         }
 

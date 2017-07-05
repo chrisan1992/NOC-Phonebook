@@ -11,7 +11,6 @@ namespace NOC_Phonebook.Phonebook_Tabs
 {
     public partial class agm_user_control : UserControl
     {
-
         private static LyncCall call;
 
         public agm_user_control()
@@ -22,44 +21,35 @@ namespace NOC_Phonebook.Phonebook_Tabs
 
         private void InitializeControls()
         {
-            Sergio_contact.MobileNumber = "+50688971861";
             Sergio_contact.MobileButtonClick += new EventHandler(Sergio_mobile);
             Sergio_contact.SkypeButtonClick += new EventHandler(Sergio_skype);
 
-            Bin_contact.MobileNumber = "+1 408 5064899";
             Bin_contact.MobileButtonClick += new EventHandler(Bin_mobile);
             Bin_contact.SkypeButtonClick += new EventHandler(Bin_skype);
 
-            Sophie_contact.MobileNumber = "+972 52 8151810";
-            Sophie_contact.MobileButtonClick += new EventHandler(Sophie_mobile);
-            Sophie_contact.SkypeButtonClick += new EventHandler(Sophie_skype);
+            Sophi_contact.MobileButtonClick += new EventHandler(Sophi_mobile);
+            Sophi_contact.SkypeButtonClick += new EventHandler(Sophi_skype);
 
-            Amin_contact.MobileNumber = "+972 50 3137553";
             Amin_contact.MobileButtonClick += new EventHandler(Amin_mobile);
             Amin_contact.SkypeButtonClick += new EventHandler(Amin_skype);
 
-            Gitit_contact.MobileNumber = "+972 50 3137647";
             Gitit_contact.MobileButtonClick += new EventHandler(Gitit_mobile);
             Gitit_contact.SkypeButtonClick += new EventHandler(Gitit_skype);
 
-            Anatoly_contact.MobileNumber = "+972 54 4745220";
             Anatoly_contact.MobileButtonClick += new EventHandler(Anatoly_mobile);
             Anatoly_contact.SkypeButtonClick += new EventHandler(Anatoly_skype);
 
-            Avital_contact.MobileNumber = "+972 54 5597063";
             Avital_contact.MobileButtonClick += new EventHandler(Avital_mobile);
             Avital_contact.SkypeButtonClick += new EventHandler(Avital_skype);
 
-            Itay_contact.MobileNumber = "+972 54 4497019";
             Itay_contact.MobileButtonClick += new EventHandler(Itay_mobile);
             Itay_contact.SkypeButtonClick += new EventHandler(Itay_skype);
 
-            Vadim_contact.MobileNumber = "+972525759368";
             Vadim_contact.MobileButtonClick += new EventHandler(Vadim_mobile);
-            Vadim_contact.SkypeButtonClick += new EventHandler(Vadmi_skype);
+            Vadim_contact.SkypeButtonClick += new EventHandler(Vadim_skype);
         }
 
-        private void Vadmi_skype(object sender, EventArgs e)
+        private void Vadim_skype(object sender, EventArgs e)
         {
             
         }
@@ -119,14 +109,14 @@ namespace NOC_Phonebook.Phonebook_Tabs
             call.makeCall(Amin_contact.MobileNumber);
         }
 
-        private void Sophie_skype(object sender, EventArgs e)
+        private void Sophi_skype(object sender, EventArgs e)
         {
             
         }
 
-        private void Sophie_mobile(object sender, EventArgs e)
+        private void Sophi_mobile(object sender, EventArgs e)
         {
-            call.makeCall(Sophie_contact.MobileNumber);
+            call.makeCall(Sophi_contact.MobileNumber);
         }
 
         private void Bin_skype(object sender, EventArgs e)
@@ -170,13 +160,6 @@ namespace NOC_Phonebook.Phonebook_Tabs
         {
             AddContactToList(contactList, Sergio_contact);
             AddContactToList(contactList, Bin_contact);
-            AddContactToList(contactList, Sophie_contact);
-            AddContactToList(contactList, Amin_contact);
-            AddContactToList(contactList, Gitit_contact);
-            AddContactToList(contactList, Anatoly_contact);
-            AddContactToList(contactList, Avital_contact);
-            AddContactToList(contactList, Itay_contact);
-            AddContactToList(contactList, Vadim_contact);
         }
 
         /// <summary>
@@ -191,6 +174,5 @@ namespace NOC_Phonebook.Phonebook_Tabs
                 contactList.Add(contact);
             }
         }
-        
     }
 }

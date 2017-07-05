@@ -18,9 +18,9 @@ namespace NOC_Phonebook
 
         public void SetLabels(String contactName, String mobileNumber, String skypeNumber)
         {
-            lblContactName.Text = contactName;
-            lblMobileNumber.Text = mobileNumber;
-            lblSkypeNumber.Text = skypeNumber;
+            lblContactName.Text = "Contact Name: " + contactName;
+            lblMobileNumber.Text = "Mobile Number: " + mobileNumber;
+            lblSkypeNumber.Text = "Skype Number: " + skypeNumber;
         }
 
         private void button1_Click(object sender, EventArgs e)

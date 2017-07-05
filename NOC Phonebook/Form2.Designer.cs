@@ -37,33 +37,33 @@
             // lblContactName
             // 
             this.lblContactName.AutoSize = true;
-            this.lblContactName.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblContactName.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblContactName.ForeColor = System.Drawing.Color.White;
             this.lblContactName.Location = new System.Drawing.Point(29, 32);
             this.lblContactName.Name = "lblContactName";
-            this.lblContactName.Size = new System.Drawing.Size(74, 24);
+            this.lblContactName.Size = new System.Drawing.Size(57, 21);
             this.lblContactName.TabIndex = 0;
             this.lblContactName.Text = "label1";
             // 
             // lblMobileNumber
             // 
             this.lblMobileNumber.AutoSize = true;
-            this.lblMobileNumber.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMobileNumber.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMobileNumber.ForeColor = System.Drawing.Color.White;
-            this.lblMobileNumber.Location = new System.Drawing.Point(29, 91);
+            this.lblMobileNumber.Location = new System.Drawing.Point(29, 90);
             this.lblMobileNumber.Name = "lblMobileNumber";
-            this.lblMobileNumber.Size = new System.Drawing.Size(74, 24);
+            this.lblMobileNumber.Size = new System.Drawing.Size(57, 21);
             this.lblMobileNumber.TabIndex = 1;
             this.lblMobileNumber.Text = "label1";
             // 
             // lblSkypeNumber
             // 
             this.lblSkypeNumber.AutoSize = true;
-            this.lblSkypeNumber.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSkypeNumber.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSkypeNumber.ForeColor = System.Drawing.Color.White;
             this.lblSkypeNumber.Location = new System.Drawing.Point(29, 147);
             this.lblSkypeNumber.Name = "lblSkypeNumber";
-            this.lblSkypeNumber.Size = new System.Drawing.Size(74, 24);
+            this.lblSkypeNumber.Size = new System.Drawing.Size(57, 21);
             this.lblSkypeNumber.TabIndex = 2;
             this.lblSkypeNumber.Text = "label1";
             // 
