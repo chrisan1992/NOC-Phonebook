@@ -64,5 +64,13 @@ namespace NOC_Phonebook
                 skypeNumber = value;
             }
         }
+
+        private void contactLbl_DoubleClick(object sender, EventArgs e)
+        {
+            //MessageBox.Show("Contact Name: "+contactLbl.Text + "\nContact Mobile Number: "+MobileNumber);
+            Form2 contactInfo = new Form2();
+            contactInfo.SetLabels(this.contactLbl.Text,this.mobileNumber,"");
+            contactInfo.Show();
+        }
     }
 }

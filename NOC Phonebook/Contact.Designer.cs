@@ -70,6 +70,7 @@
             this.contactLbl.Size = new System.Drawing.Size(130, 21);
             this.contactLbl.TabIndex = 7;
             this.contactLbl.Text = "Contact Name";
+            this.contactLbl.DoubleClick += new System.EventHandler(this.contactLbl_DoubleClick);
             // 
             // Contact
             // 

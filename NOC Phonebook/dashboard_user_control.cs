@@ -11,7 +11,6 @@ namespace NOC_Phonebook
 {
     public partial class dashboard_user_control : UserControl
     {
-
         private static List<Contact> ContactList;
         private static LyncCall call;
 
@@ -61,17 +60,39 @@ namespace NOC_Phonebook
             call.makeCall(search_result_1.MobileNumber);
         }
 
+        /// <summary>
+        /// Saves the contact list
+        /// </summary>
+        /// <param name="contacts"></param>
         public void SetContactList(List<Contact> contacts)
         {
             ContactList = contacts;
         }
 
         /// <summary>
-        /// Search from the User controls the one specified
+        /// Hide the buttons
+        /// </summary>
+        private void HideComponents()
+        {
+            search_result_1.Visible = false;
+            search_result_2.Visible = false;
+            search_result_3.Visible = false;
+        }
+
+        /// <summary>
+        /// 
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void button1_Click(object sender, EventArgs e)
+        private void txtSearch_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Convert.ToInt32(e.KeyChar) == 13)
+            {
+                btnSearch.PerformClick();
+            }
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
         {
             String searchFor = txtSearch.Text;
             List<Contact> searchResults = new List<Contact>();
@@ -121,26 +142,6 @@ namespace NOC_Phonebook
                         //no results
                     }
                 }
-            }
-        }
-
-        private void HideComponents()
-        {
-            search_result_1.Visible = false;
-            search_result_2.Visible = false;
-            search_result_3.Visible = false;
-        }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void txtSearch_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (Convert.ToInt32(e.KeyChar) == 13)
-            {
-                button1.PerformClick();
             }
         }
     }
