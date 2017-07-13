@@ -68,5 +68,16 @@ namespace NOC_Phonebook
 
             dataGridView1.DataSource = table;
         }
+
+        private void dataGridView1_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.ColumnIndex >= 1)
+            {
+                String number = dataGridView1[e.ColumnIndex, e.RowIndex].Value.ToString();
+
+                call.makeCall(number);
+            }
+            
+        }
     }
 }
